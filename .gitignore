@@ -1,2 +1,8 @@
+# Ignore database config files
+**/admin/database
+
+# Ignore pdf files
+*.pdf
+
 # Ignore video files
 **/video

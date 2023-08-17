@@ -2,19 +2,18 @@
 
 // session_start();
 
-$server_name = "localhost";
-$db_username = "vuuniversity";
-$db_password = "^&*GuYtJH&*49R&^";
-$db_name = "vu-fornotfor";
 // $server_name = "localhost";
-// $db_username = "root";
-// $db_password = "";
-// $db_name = "fornotfor";
+// $db_username = "vuuniversity";
+// $db_password = "^&*GuYtJH&*49R&^";
+// $db_name = "vu-fornotfor";
+$server_name = "localhost";
+$db_username = "root";
+$db_password = "";
+$db_name = "fornotfor";
 
 $connection = new mysqli("$server_name", "$db_username", "$db_password", "$db_name");
 
-if(!$connection)
-{
+if (!$connection) {
     die("Connection failed: " . mysqli_connect_error());
     echo '
         <div class="container">
