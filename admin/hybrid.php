@@ -121,13 +121,13 @@ error_reporting(0);
                       <input type="hidden" name="edit_id" value=" <?php echo $row['SlNo']; ?>">
                       <button type="submit" name="edit_btn" class="btn btn-success"> EDIT</button>
                     </form> -->
-                    <a class="btn btn-success" href="hybird_form_edit.php?edit_id=<?php echo $row['SlNo']; ?>">EDIT</a>
+                    <a class="btn btn-success" href="hybird_form_edit.php?edit_id=<?php echo $row['id']; ?>">EDIT</a>
                   </td>
 
                   <td>
                     <form action="" method="post">
                       <input type="hidden" name="delete_id" value="">
-                      <button type="button" name="delete_btn"  class="btn btn-danger deletereg" value="<?php echo $row['SlNo']; ?>"> DELETE</button>
+                      <button type="button" name="delete_btn" class="btn btn-danger deletereg" value="<?php echo $row['id']; ?>"> DELETE</button>
                     </form>
                   </td>
                 </tr>
@@ -172,39 +172,39 @@ error_reporting(0);
       });
 
 
-      $(document).on('click','.deletereg',function(){
+      $(document).on('click', '.deletereg', function() {
 
-            //alert($(this).attr('data-id'));
-            var regId = $(this).val();
-            var ele = $(this);
-            //alert(regId);
-            //return false;
+        //alert($(this).attr('data-id'));
+        var regId = $(this).val();
+        var ele = $(this);
+        //alert(regId);
+        //return false;
 
-            ele.prop("disabled", true);
-		        // add spinner to button for some time
-		        ele.html('<i class="fa fa-spinner fa-spin"></i> Deleting...');
-            //return false;
+        ele.prop("disabled", true);
+        // add spinner to button for some time
+        ele.html('<i class="fa fa-spinner fa-spin"></i> Deleting...');
+        //return false;
 
-            
-            $.ajax({
-            url: 'delete-hybird-reg.php',
-            type: 'post',            
-            data: {               
-                "regId": regId,                
-            },
-            datatype: 'json',
-            success: function(response) {
-                console.log(response); 
-                if(response == "success") {
-                  ele.parents('tr').hide(); 
-                }                        
-            },
-            error: function(error) {
-                console.log(error)
+
+        $.ajax({
+          url: 'delete-hybird-reg.php',
+          type: 'post',
+          data: {
+            "regId": regId,
+          },
+          datatype: 'json',
+          success: function(response) {
+            console.log(response);
+            if (response == "success") {
+              ele.parents('tr').hide();
             }
-            });
-
+          },
+          error: function(error) {
+            console.log(error)
+          }
         });
+
+      });
 
     });
 </script>

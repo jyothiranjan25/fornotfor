@@ -878,7 +878,7 @@ $medium = $_GET['medium'];
 										</fieldset>
 									</div>
 									<div class="form-holder form-group">
-									<!--	<fieldset>
+										<!--	<fieldset>
 											<legend>Team Name<sup style="color:red;">*</sup> </legend>
 											<input type="text" class="form-control" id="lname" name="tname" placeholder="Team Name (for Hybrid Format) ">
 										</fieldset>-->
@@ -900,24 +900,16 @@ $medium = $_GET['medium'];
 										<input type="text" class="hidden-textbox" name="Other" id="Other" style="display:none;" height="auto">
 									</div>
 								</div>
-	<div class="form-row col-12">
+								<div class="form-row col-12">
 									<div class="form-holder form-group">
-											
-											<legend><i>Accommodation will be provided by FNF team.</i> </legend>
-											
-									
-									
+										<legend><i>Accommodation will be provided by FNF team.</i> </legend>
 									</div>
 								</div>
 								<div class="form-row justify-content-center">
-
 									<div class="form-holder form-group"></div>
-
 									<div class="form-holder form-group"><button class="button" type="submit" value="register" name="submithybridReg">Register Now</button></div>
-
 									<div class="form-holder form-group"></div>
 								</div>
-
 							</div>
 						</section>
 						<!-- SECTION  -->
@@ -1035,11 +1027,11 @@ $medium = $_GET['medium'];
 								notEmpty: {
 									message: 'Required *'
 								},
-							//	stringLength: {
-							//		min: 10,
-							//		max: 10,
-							//		message: 'Enter 10 digit mobile number'
-							//	},
+								//	stringLength: {
+								//		min: 10,
+								//		max: 10,
+								//		message: 'Enter 10 digit mobile number'
+								//	},
 								regexp: {
 									regexp: /^[0-9]+$/,
 									message: 'Principal contact number can only consist of number'
@@ -1093,11 +1085,11 @@ $medium = $_GET['medium'];
 								notEmpty: {
 									message: 'Required *'
 								},
-							//	stringLength: {
-							//		min: 10,
-							//		max: 10,
-							//		message: 'Enter 10 digit mobile number'
-							//	},
+								//	stringLength: {
+								//		min: 10,
+								//		max: 10,
+								//		message: 'Enter 10 digit mobile number'
+								//	},
 								regexp: {
 									regexp: /^[0-9]+$/,
 									message: 'Phone number can only consist of number'
@@ -1110,11 +1102,11 @@ $medium = $_GET['medium'];
 								notEmpty: {
 									message: 'Required *'
 								},
-							//	stringLength: {
-							//		min: 10,
-							//		max: 10,
-							//		message: 'Enter 10 digit mobile number'
-							//	},
+								//	stringLength: {
+								//		min: 10,
+								//		max: 10,
+								//		message: 'Enter 10 digit mobile number'
+								//	},
 								regexp: {
 									regexp: /^[0-9]+$/,
 									message: 'Whatsapp number can only consist of number'
@@ -1160,11 +1152,11 @@ $medium = $_GET['medium'];
 								notEmpty: {
 									message: 'Required *'
 								},
-							//	stringLength: {
-							//		min: 10,
-							//		max: 10,
-							//		message: 'Enter 10 digit mobile number'
-							//	},
+								//	stringLength: {
+								//		min: 10,
+								//		max: 10,
+								//		message: 'Enter 10 digit mobile number'
+								//	},
 								regexp: {
 									regexp: /^[0-9]+$/,
 									message: 'Phone number can only consist of number'
@@ -1177,11 +1169,11 @@ $medium = $_GET['medium'];
 								notEmpty: {
 									message: 'Required *'
 								},
-							//	stringLength: {
-							//		min: 10,
-							//		max: 10,
-							//		message: 'Enter 10 digit mobile number'
-							//	},
+								//	stringLength: {
+								//		min: 10,
+								//		max: 10,
+								//		message: 'Enter 10 digit mobile number'
+								//	},
 								regexp: {
 									regexp: /^[0-9]+$/,
 									message: 'Whatsapp number can only consist of number'
@@ -1219,11 +1211,11 @@ $medium = $_GET['medium'];
 								notEmpty: {
 									message: 'Required *'
 								},
-						//		stringLength: {
-						//			min: 10,
-						//			max: 10,
-						//			message: 'Enter 10 digit mobile number'
-						//		},
+								//		stringLength: {
+								//			min: 10,
+								//			max: 10,
+								//			message: 'Enter 10 digit mobile number'
+								//		},
 								regexp: {
 									regexp: /^[0-9]+$/,
 									message: 'Mobile number can only consist of number'

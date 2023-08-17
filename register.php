@@ -1,9 +1,9 @@
 <?php
 
 
-$source=$_GET['source'];
-$campaign=$_GET['campaign'];
-$medium=$_GET['medium'];
+$source = $_GET['source'];
+$campaign = $_GET['campaign'];
+$medium = $_GET['medium'];
 
 
 ?>
@@ -12,6 +12,7 @@ $medium=$_GET['medium'];
 
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<title>For not for --registration</title>
@@ -21,35 +22,36 @@ $medium=$_GET['medium'];
 	<link rel="stylesheet" type="text/css" href="css/opensans-font.css">
 	<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
 	<!-- Main Style Css -->
-    <link rel="stylesheet" href="css/register.css"/>
+	<link rel="stylesheet" href="css/register.css" />
 
-	
-	
+
+
 </head>
+
 <body>
-	
+
 	<div class="page-content">
 
 
 
-		
+
 		<div class="form-v1-content">
 
-			
+
 
 			<div class="wizard-form">
-		        <form class="form-register" action="connect.php" method="POST">
-		        	<div id="form-total">
-		        		<!-- SECTION 1 -->
-			            <h2>
-			            	<p class="step-icon"><span>01</span></p>
-			            	<span class="step-text">   Participant's Infomation</span>
-			            </h2>
-			            <section>
-			                <div class="inner">
-			                	<div class="wizard-header">
+				<form class="form-register" action="connect.php" method="POST">
+					<div id="form-total">
+						<!-- SECTION 1 -->
+						<h2>
+							<p class="step-icon"><span>01</span></p>
+							<span class="step-text"> Participant's Infomation</span>
+						</h2>
+						<section>
+							<div class="inner">
+								<div class="wizard-header">
 									<h3 class="heading">FOR NOT FOR 2021 Registration<br> Participant's Infomation</h3>
-									<p>Please enter your infomation and proceed to the next step so we can process your registration.  </p>
+									<p>Please enter your infomation and proceed to the next step so we can process your registration. </p>
 								</div>
 								<div class="form-row">
 									<div class="form-holder">
@@ -66,7 +68,7 @@ $medium=$_GET['medium'];
 									</div>
 								</div>
 
-							
+
 
 								<div class="form-row">
 									<div class="form-holder">
@@ -77,8 +79,8 @@ $medium=$_GET['medium'];
 												<option value="male">Male</option>
 												<option value="female">Female</option>
 												<option value="trans">Transgender</option>
-												
-											</select> 
+
+											</select>
 										</fieldset>
 									</div>
 									<div class="form-holder">
@@ -88,8 +90,8 @@ $medium=$_GET['medium'];
 												<option value="" disabled="" selected="">Select Grade</option>
 												<option value="11">11<sup>th</sup></option>
 												<option value="12">12<sup>th</sup></option>
-												
-												
+
+
 											</select>
 										</fieldset>
 									</div>
@@ -107,9 +109,9 @@ $medium=$_GET['medium'];
 												<option value="Humanities">Cambridge</option>
 												<option value="Humanities">IB</option>
 												<option value="Humanities">Others</option>
-												
-												
-											</select> 
+
+
+											</select>
 										</fieldset>
 									</div>
 									<div class="form-holder">
@@ -124,8 +126,8 @@ $medium=$_GET['medium'];
 												<option value="Liberal">Liberal Arts</option>
 												<option value="Design">Design</option>
 												<option value="Others">Others</option>
-												
-												
+
+
 											</select>
 										</fieldset>
 									</div>
@@ -144,7 +146,7 @@ $medium=$_GET['medium'];
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>Phone Number</legend>
-											<input type="tel"  class="form-control" id="phone" name="phone"  required>
+											<input type="tel" class="form-control" id="phone" name="phone" required>
 										</fieldset>
 									</div>
 								</div>
@@ -152,24 +154,24 @@ $medium=$_GET['medium'];
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend>Whatsapp Number</legend>
-											<input type="tel"   class="form-control" id="wphone" name="wphone"  required>
+											<input type="tel" class="form-control" id="wphone" name="wphone" required>
 										</fieldset>
 									</div>
 								</div>
-								
+
 
 							</div>
-			            </section>
+						</section>
 						<!-- SECTION 2 -->
-			            <h2>
-			            	<p class="step-icon"><span>02</span></p>
-			            	<span class="step-text">School/College Infomation</span>
-			            </h2>
-			            <section>
+						<h2>
+							<p class="step-icon"><span>02</span></p>
+							<span class="step-text">School/College Infomation</span>
+						</h2>
+						<section>
 							<div class="inner">
-			                	<div class="wizard-header">
+								<div class="wizard-header">
 									<h3 class="heading">School/College Infomation</h3>
-									<p>Please enter the infomation and click on the Register Now button to regsiter.  </p>
+									<p>Please enter the infomation and click on the Register Now button to regsiter. </p>
 								</div>
 								<div class="form-row">
 									<div class="form-holder">
@@ -188,7 +190,7 @@ $medium=$_GET['medium'];
 
 								<div class="form-row">
 									<div class="form-holder form-holder-2">
-										
+
 										<fieldset>
 											<legend>School/College Adress </legend>
 											<input type="text" class="form-control" id="saname" name="saname" placeholder="School/College Adress" required>
@@ -206,7 +208,7 @@ $medium=$_GET['medium'];
 									<div class="form-holder">
 										<fieldset>
 											<legend>Principal Contact Number</legend>
-											<input type="tel" class="form-control" id="spnumber"  name="spnumber" placeholder="Principal Contact" required>
+											<input type="tel" class="form-control" id="spnumber" name="spnumber" placeholder="Principal Contact" required>
 										</fieldset>
 									</div>
 								</div>
@@ -231,7 +233,7 @@ $medium=$_GET['medium'];
 									<div class="form-holder">
 										<fieldset>
 											<legend>Coordinator Contact Number</legend>
-											<input type="tel" class="form-control" id="scnumber" name="scnumber"  placeholder="Coordinator contact" required>
+											<input type="tel" class="form-control" id="scnumber" name="scnumber" placeholder="Coordinator contact" required>
 										</fieldset>
 									</div>
 								</div>
@@ -245,22 +247,22 @@ $medium=$_GET['medium'];
 									</div>
 								</div>
 
-<br>
-<br>
+								<br>
+								<br>
 
 								<a href="" target="_blank"><button class="button" type="submit" value="register" name="submit" style="color:blue">Register Now</button></a>
-								
 
-							
+
+
 							</div>
-			            </section>
-			            <!-- SECTION 3 -->
-			            	<input type="text" name="source" style="display:none" value="<?= $source ?>">
-			            	<input type="text" name="medium" style="display:none" value="<?= $medium ?>" >
-			            	<input type="text" name="campaign" style="display:none" value="<?= $campaign ?>">
-						  
-		        	</div>
-		        </form>
+						</section>
+						<!-- SECTION 3 -->
+						<input type="text" name="source" style="display:none" value="<?= $source ?>">
+						<input type="text" name="medium" style="display:none" value="<?= $medium ?>">
+						<input type="text" name="campaign" style="display:none" value="<?= $campaign ?>">
+
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
@@ -269,4 +271,5 @@ $medium=$_GET['medium'];
 	<script src="js/jquery.steps.js"></script>
 	<script src="js/main.js"></script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
 </html>

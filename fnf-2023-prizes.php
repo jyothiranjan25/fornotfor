@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>For not for - Demo Video</title>
+  <title>FNF 2022 Prizes</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -111,7 +111,7 @@
       <div class="row">
         <div class="col-md-8">
           <ul class="list-inline custom-breadcrumb">
-            <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="#">Demo Video</a></li>
+            <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="#">FNF 2022 Prizes</a></li>
             <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
           </ul>
 
@@ -121,56 +121,68 @@
   </section>
   <!-- /page title -->
 
-  <!-- Demo Video -->
+  <!-- Initium -->
   <section class="section pb-0">
     <div class="container">
-      <div class="row mb-5">
-        <div class="col-12">
-          <h3>Explainer videos</h3>
-        </div>
-
-        <div class="col-md-12">
-          <iframe width="100%" height="515" src="https://www.youtube.com/embed/3D0G6-jBX-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="padding-top:20px;padding-bottom:20px;"></iframe>
-        </div>
-
-        <div class="col-12">
-          <h3>Reference videos </h3>
-        </div>
+      <div class="row">
         <div class="col-6">
+          <h3 class="section-title mb-0">FNF 2022- The Hybrid British Parliamentary Debate (BPD)</h3>
           <ul class="objectives">
-            <li><a href="https://www.youtube.com/watch?v=W0M2-Zc8XZs&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=1" target="_blank">Belgrade WUDC 2022 Round 3</a></li>
-            <li><a href="https://www.youtube.com/watch?v=GG2OQIP5tCs&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=2" target="_blank">Belgrade WUDC 2022 Round 5</a></li>
-            <li><a href="https://www.youtube.com/watch?v=eOJc-vJo1lM&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=3" target="_blank">Belgrade WUDC 2022 Round 6</a></li>
-            <li><a href="https://www.youtube.com/watch?v=P28WviPguF8&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=4" target="_blank">Belgrade WUDC 2022 Round 7</a></li>
-            <li><a href="https://www.youtube.com/watch?v=yc8X4p1WRUY&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=5" target="_blank">Belgrade WUDC 2022 Round 8</a></li>
-            <li><a href="https://www.youtube.com/watch?v=RKl7nKNQDA8&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=6" target="_blank">Belgrade WUDC 2022 Round 9 Room 1</a></li>
-            <li><a href="https://www.youtube.com/watch?v=RKl7nKNQDA8&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=6" target="_blank">Belgrade WUDC 2022 Open Partial Double Octos Room 1</a></li>
-            <li><a href="https://www.youtube.com/watch?v=DOm_nnzw1GA&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=8" target="_blank">Belgrade WUDC 2022 Open Partial Double Octos Room 2</a></li>
-            <li><a href="https://www.youtube.com/watch?v=EhBU5FzYAiY&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=9" target="_blank">Belgrade WUDC 2022 Open Partial Double Octos Room 3</a></li>
-            <li><a href="https://www.youtube.com/watch?v=w6sOGU6dob4&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=10" target="_blank">Belgrade WUDC 2022 ESL Quarterfinals Room 1</a></li>
-            <li><a href="https://www.youtube.com/watch?v=61n_2BRtkAA&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=11" target="_blank">Belgrade WUDC 2022 ESL Quarterfinals Room 2</a></li>
-
+            <li>Winner Team – Rs. One Lakh+ Plaque and Certificate, Scholarship, Internship</li>
+            <li>Runner Up -     Rs. 50000 + Plaque and Certificate, Scholarship, Internship at VU</li>
+            <li>Third Place -     Rs. 20000 + Plaque and Certificate, Scholarship, Internship at VU</li>
+            <li>Fourth Place – Rs. 10000+ Plaque and Certificate, Scholarship, Internship at VU</li>
+            <li>Pre Quarter, Quarter, Semi, Final Round Finalists – Certificates, Scholarship, Internship at VU</li>
+            <li>All Participants – Participant Certificate, Online Career Counselling Session</li>
           </ul>
+          <!--    <h3 class="section-title mb-0">FNF 2022- The International Virtual Debate (One on One)</h3>
+								<ul class="objectives">
+									<li>Winner      – Rs. 50000 + Plaque and Certificate, Scholarship, Internship</li>
+									<li>Runner Up – Rs. 25000 + Plaque and Certificate, Scholarship, Internship</li>
+									<li>Pre-Quarter, Quarter, Semi, Final Round Finalists – Certificates, Scholarship, Internship at VU</li>
+									<li>All Participants – Participant Certificate, Online Career Counselling Session</li>
+								</ul>-->
         </div>
-        <div class="col-6">
-          <ul class="objectives">
-            <li><a href="https://www.youtube.com/watch?v=Fylag_yuIpY&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=12" target="_blank">Belgrade WUDC 2022 Octofinals Room 1</a></li>
-            <li><a href="https://www.youtube.com/watch?v=CpZ1fGPRDso&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=13" target="_blank">Belgrade WUDC 2022 Octofinals Room 2</a></li>
-            <li><a href="https://www.youtube.com/watch?v=mR6UTag8Fss&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=14" target="_blank">Belgrade WUDC 2022 Quarterfinals Room 1</a></li>
-            <li><a href="https://www.youtube.com/watch?v=IUgHBLTz8N8&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=15" target="_blank">Belgrade WUDC 2022 Quarterfinals Room 2</a></li>
-            <li><a href="https://www.youtube.com/watch?v=h_1T2s-DfOE&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=16" target="_blank">Belgrade WUDC 2022 Semifinals Room 1</a></li>
-            <li><a href="https://www.youtube.com/watch?v=x1uANEWOOi0&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=17" target="_blank">Belgrade WUDC 2022 Semifinals Room 2</a></li>
-            <li><a href="https://www.youtube.com/watch?v=S6CAyZPSiFQ&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=18" target="_blank">Belgrade WUDC 2022 EFL Grand Final</a></li>
-            <li><a href="https://www.youtube.com/watch?v=cl6fSukqeIg&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=19" target="_blank">Belgrade WUDC 2022 ESL Grand Final</a></li>
-            <li><a href="https://www.youtube.com/watch?v=j0Y4Yi6YQsk&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=20" target="_blank">Belgrade WUDC 2022 Open Grand Final</a></li>
-            <li><a href="https://www.youtube.com/watch?v=ZjZeEWILHAc&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=21" target="_blank">Belgrade WUDC 2022 Round 4</a></li>
-            <li><a href="https://www.youtube.com/watch?v=BjPXNr9Jf0Y&list=PLAntmD_yHPRBPKerDJToXE2yLOkngsD7g&index=22" target="_blank">Belgrade WUDC 2022 Round 9 Room 2</a></li>
-          </ul>
-        </div>
+        <div class="col-6"><img src="images/trophy.jpg" class="img-fluid"></div>
       </div>
     </div>
   </section>
   <!-- /Initium -->
+  <!-- Highlights -->
+  <section class="fnp22">
+    <h2 class="text-center">Milestones of FNF 2021</h2>
+    <div class="container mt-5 mb-0">
+      <div class="row text-center">
+        <div class="col">
+          <div class="counter1"> <i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
+            <h2 class="timer count-title1 count-number" data-to="230" data-speed="7000">₹</h2>
+            <p class="count-text ">Students</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="counter1"> <i class="fa fa-globe fa-5x" aria-hidden="true"></i>
+            <h2 class="timer count-title1 count-number" data-to="10" data-speed="7000"></h2>
+            <p class="count-text ">Countries</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="counter1"> <i class="fa fa-university fa-5x" aria-hidden="true"></i>
+            <h2 class="timer count-title1 count-number" data-to="162" data-speed="7000"></h2>
+            <p class="count-text ">Schools</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="counter1"> <i class="fa fa-smile-o fa-5x" aria-hidden="true"></i>
+            <h2 class="timer count-title1 count-number" data-to="230" data-speed="7000"></h2>
+            <p class="count-text ">Happy Participants</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Highlights -->
+
+
   <!-- footer -->
   <?php include_once "footer.php"; ?>
   <script>

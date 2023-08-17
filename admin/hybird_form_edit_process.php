@@ -57,7 +57,7 @@ $campaign = 'Direct';
 }
 // $sql = " INSERT INTO `hybrid-registration` (`state`, city, pschool, branch, ofcemail, ofcemail, principalemail, student1, studentgrade1, studentemail1, studentphone, wphone, student2, studentgrade2, studentemail2, studentphone2, wphone2, teacher, teacheremail, teacherphone, tname, travel,status,createdon) VALUES ('$state', '$city' , '$pschool' , '$branch' , '$ofcemail' , '$principalno' , '$principalemail' , '$student1' , '$studentgrade1', '$studentemail1', '$studentphone', '$wphone', '$student2', '$studentgrade2', '$studentemail2', '$studentphone2', '$wphone2',  '$teacher',  '$teacheremail', '$teacherphone', '$tname', '$travel','1','$createdon')";
 
-$sql = " UPDATE `hybrid-registration` SET state = '$state', city = '$city', pschool = '$pschool', branch = '$branch', ofcemail = '$ofcemail', principalemail = '$principalemail', student1 = '$student1', studentgrade1 = '$studentgrade1', studentemail1 = '$studentemail1', studentphone = '$studentphone', wphone = '$wphone', student2 = '$student2', studentgrade2 = '$studentgrade2', studentemail2 = '$studentemail2', studentemail2 = '$studentemail2', studentphone2 = '$studentphone2', wphone2 = '$wphone2', teacher = '$teacher', teacheremail = '$teacheremail', teacherphone = '$teacherphone', tname = '$tname', travel = '$travel' where SlNo =  '".$regId."' ";
+$sql = " UPDATE `hybrid-registration` SET state = '$state', city = '$city', pschool = '$pschool', branch = '$branch', ofcemail = '$ofcemail', principalemail = '$principalemail', student1 = '$student1', studentgrade1 = '$studentgrade1', studentemail1 = '$studentemail1', studentphone = '$studentphone', wphone = '$wphone', student2 = '$student2', studentgrade2 = '$studentgrade2', studentemail2 = '$studentemail2', studentemail2 = '$studentemail2', studentphone2 = '$studentphone2', wphone2 = '$wphone2', teacher = '$teacher', teacheremail = '$teacheremail', teacherphone = '$teacherphone', tname = '$tname', travel = '$travel' where id =  '".$regId."' ";
   //echo mysqli_connect_error();
 	if($connection->query($sql)){
 		//echo "success";
@@ -68,8 +68,3 @@ $sql = " UPDATE `hybrid-registration` SET state = '$state', city = '$city', psch
 	}	
 
 }
-?>
-
-
-
-
