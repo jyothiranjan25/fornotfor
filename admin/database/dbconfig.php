@@ -1,6 +1,6 @@
 <?php
 
-// session_start();
+session_start();
 
 // $server_name = "localhost";
 // $db_username = "vuuniversity";
@@ -32,3 +32,7 @@ if (!$connection) {
         </div>
     ';
 }
+
+// Paymentgateway Keys
+$keyId = 'rzp_test_EULNZlCUzblGDF';
+$keySecret = 'l3GEuaZoie9DcS7yhMBFqaZx';

@@ -46,11 +46,11 @@ error_reporting(0);
                 <div class="col-md-12 col-sm-12" style="margin-top: auto; margin-bottom: auto;">
                     <br> <br>
                     <center>
-                        
+
                         <div class="alert alert-success animate_animated animate_bounce">
-                            <div class="col-md-12 col-sm-12"> <strong>You have successfully Registered for For Not For 2022! Please check your Mail For more details</strong>
+                            <div class="col-md-12 col-sm-12"> <strong>You have successfully Registered for For Not For 2023! Please check your Mail For more details</strong>
                             </div>
-                        </div> <img src="images/news-letter-thank-you.gif" class="img-fluid"> 
+                        </div> <img src="images/news-letter-thank-you.gif" class="img-fluid">
                     </center>
 
                 </div>

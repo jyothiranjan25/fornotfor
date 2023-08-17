@@ -72,7 +72,8 @@ error_reporting(0);
               <th> Name of the Teacher Coordinator </th>
               <th> Email Id </th>
               <th> Phone Number </th>
-              <th> Team Name </th>
+              <th> Whatsapp Number </th>
+              <th> Payment Status </th>
               <th> Select Travel </th>
               <th colspan="2"> Action </th>
 
@@ -113,7 +114,8 @@ error_reporting(0);
                   <td> <?php echo $row['teacher']; ?></td>
                   <td> <?php echo $row['teacheremail']; ?></td>
                   <td> <?php echo $row['teacherphone']; ?></td>
-                  <td> <?php echo $row['tname']; ?></td>
+                  <td> <?php echo $row['twphone']; ?></td>
+                  <td> <?php echo $row['payment_status']; ?></td>
                   <td> <?php echo $row['travel']; ?></td>
 
                   <td>
@@ -127,7 +129,7 @@ error_reporting(0);
                   <td>
                     <form action="" method="post">
                       <input type="hidden" name="delete_id" value="">
-                      <button type="button" name="delete_btn" class="btn btn-danger deletereg" value="<?php echo $row['id']; ?>"> DELETE</button>
+                      <button type="button" name="delete_btn" class="btn btn-danger deletereg" value="<?php echo $row['id']; ?>">DELETE</button>
                     </form>
                   </td>
                 </tr>
@@ -137,11 +139,7 @@ error_reporting(0);
             } else {
               echo "NO record Found";
             }
-
             ?>
-
-
-
           </tbody>
         </table>
 

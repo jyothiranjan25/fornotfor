@@ -7,12 +7,18 @@ include('includes/navbar.php');
 error_reporting(0);
 if (!empty($_GET['edit_id'])) {
 	$regId = $_GET['edit_id'];
+} else {
+	echo "<script>alert('Something is fishy! Please try again...');
+		window.location.href='hybrid.php';</script>";
 }
 $query = " select * from `hybrid-registration` where id = '" . $regId . "' and status = 1 and markasdelete is null";
 $query_run = mysqli_query($connection, $query);
 if (mysqli_num_rows($query_run) > 0) {
 	$row = mysqli_fetch_assoc($query_run);
 	//print_r($row);
+} else {
+	echo "<script>alert('Something is fishy! Please try again...');
+		window.location.href='hybrid.php';</script>";
 }
 
 ?>
@@ -49,7 +55,7 @@ if (mysqli_num_rows($query_run) > 0) {
 				<div class="edit-form container">
 					<form id="hybridReg" action="hybird_form_edit_process.php" method="post">
 						<div class="row formrow">
-							<input type="hidden" name="regId" value="<?php echo (!empty($row['SlNo']) ? $row['SlNo'] : ''); ?>">
+							<input type="hidden" name="regId" value="<?php echo (!empty($row['id']) ? $row['id'] : ''); ?>">
 							<div class="col-md-6">
 								<div class="form-group">
 									<label>Location</label>
@@ -174,6 +180,12 @@ if (mysqli_num_rows($query_run) > 0) {
 								<div class="form-group">
 									<label>Phone Number</label>
 									<input type="tel" class="form-control" id="phone" name="teacherphone" value="<?php echo (!empty($row['teacherphone']) ? $row['teacherphone'] : ''); ?>" placeholder="Phone Number">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label>Whatsapp Number</label>
+									<input type="tel" class="form-control" id="phone" name="twphone" value="<?php echo (!empty($row['twphone']) ? $row['twphone'] : ''); ?>" placeholder="Phone Number">
 								</div>
 							</div>
 							<div class="col-md-6">

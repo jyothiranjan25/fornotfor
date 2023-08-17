@@ -134,8 +134,8 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <p>Tucked in between the majestic valleys of Karjat, VijayBhoomi University is the perfect location to grow one’s life skills gearing them up for future endeavours. For not for 2022, aims to offer more than just a parliamentary debate competition. Coupled with the intense final rounds of the debate, <b>preliminary qualified participants</b> will be given the unprecedented opportunity to attend the <b>Leadership Retreat</b> at VBU. Participants will be able to experience many activities ranging from psychometric tests to an awe-inducing trek of the Karjat hills. Each event adds its own life skill as a valued outcome. </p>
-          <p>Never before seen in an international parliamentary debate competition of its size, For Not For 2022’s leadership retreat is sure to ease the competitive and tense environment, transitioning into one of fun and learning. The leadership retreat takes VBU’s best offerings and invites all those qualifying participants for an exciting and educative time at the VijayBhoomi University Campus. </p>
+          <p>Tucked in between the majestic valleys of Karjat, VijayBhoomi University is the perfect location to grow one’s life skills gearing them up for future endeavours. For not for 2023, aims to offer more than just a parliamentary debate competition. Coupled with the intense final rounds of the debate, <b>preliminary qualified participants</b> will be given the unprecedented opportunity to attend the <b>Leadership Retreat</b> at VBU. Participants will be able to experience many activities ranging from psychometric tests to an awe-inducing trek of the Karjat hills. Each event adds its own life skill as a valued outcome. </p>
+          <p>Never before seen in an international parliamentary debate competition of its size, For Not For 2023’s leadership retreat is sure to ease the competitive and tense environment, transitioning into one of fun and learning. The leadership retreat takes VBU’s best offerings and invites all those qualifying participants for an exciting and educative time at the VijayBhoomi University Campus. </p>
           <h3>Activities </h3>
           <ul class="objectives">
             <li>FNF Pre-Quarter, Quarter, Semi-final and Final rounds</li>
@@ -146,7 +146,7 @@
             <li>Fun sessions and campfire at night</li>
             <li>Motivational talks by experts</li>
           </ul>
-          <p>The Leadership Retreat offers immersive experience to know about society, engage in outdoor activities and exposure to a few advanced academic topics. The activities will hone various abilities amongst the participants to undertake deep reflection, interact with diverse peer group and build perspective about emerging careers. The qualifying participants will be hosted at picturesque Vijaybhoomi Campus which is surrounded by Sahayadri Range from three sides and offers numerous waterfall views in Monsoon. You will have exciting workshops in drone piloting, sound producing, outbound leadership, data analytics, design, self-discovery, etc. So, what are you waiting for? Register yourselves for FNF 2022 and take back the experience of a lifetime !!</p>
+          <p>The Leadership Retreat offers immersive experience to know about society, engage in outdoor activities and exposure to a few advanced academic topics. The activities will hone various abilities amongst the participants to undertake deep reflection, interact with diverse peer group and build perspective about emerging careers. The qualifying participants will be hosted at picturesque Vijaybhoomi Campus which is surrounded by Sahayadri Range from three sides and offers numerous waterfall views in Monsoon. You will have exciting workshops in drone piloting, sound producing, outbound leadership, data analytics, design, self-discovery, etc. So, what are you waiting for? Register yourselves for FNF 2023 and take back the experience of a lifetime !!</p>
         </div>
       </div>
       <div class="row my-5">
@@ -319,7 +319,7 @@
         <div class="col-md-6" id="pitch">
           <div class="activity">
             <h3 class="section-title">CAREER COUNSELLING AND SELF DISCOVERY</h3>
-            <p>Have you wanted someone to talk to about your thoughts, ideas, feelings, and concerns about your career and educational choices, who will help you sort out, organize, and make sense of your thoughts and feelings? Have you wanted someone to help you identify the factors influencing your career development, and help you assess your interests, abilities, and values? Look no further, register for FNF 2022 and qualify for the pre-finals, we have a career counselling workshop that might just be the ideal place of guidance you always wanted, to materialize your dreams!</p>
+            <p>Have you wanted someone to talk to about your thoughts, ideas, feelings, and concerns about your career and educational choices, who will help you sort out, organize, and make sense of your thoughts and feelings? Have you wanted someone to help you identify the factors influencing your career development, and help you assess your interests, abilities, and values? Look no further, register for FNF 2023 and qualify for the pre-finals, we have a career counselling workshop that might just be the ideal place of guidance you always wanted, to materialize your dreams!</p>
           </div>
         </div>
         <div class="col-md-6">
@@ -353,7 +353,7 @@
         <div class="col-md-6" id="pitch1">
           <div class="activity">
             <h3 class="section-title">CAREER COUNSELLING AND SELF DISCOVERY</h3>
-            <p>Have you wanted someone to talk to about your thoughts, ideas, feelings, and concerns about your career and educational choices, who will help you sort out, organize, and make sense of your thoughts and feelings? Have you wanted someone to help you identify the factors influencing your career development, and help you assess your interests, abilities, and values? Look no further, register for FNF 2022 and qualify for the pre-finals, we have a career counselling workshop that might just be the ideal place of guidance you always wanted, to materialize your dreams!</p>
+            <p>Have you wanted someone to talk to about your thoughts, ideas, feelings, and concerns about your career and educational choices, who will help you sort out, organize, and make sense of your thoughts and feelings? Have you wanted someone to help you identify the factors influencing your career development, and help you assess your interests, abilities, and values? Look no further, register for FNF 2023 and qualify for the pre-finals, we have a career counselling workshop that might just be the ideal place of guidance you always wanted, to materialize your dreams!</p>
           </div>
         </div>
 

@@ -307,7 +307,7 @@ $medium = $_GET['medium'];
     padding: 25px">
 						<h2 class="section-title">FOR NOT FOR 2023</h2>
 						<!--	<h3 class="section-title"> 2<sup>nd</sup> Oct 2021</h3> -->
-						<p>FNF 2023 will be a Hybrid British Parliamentary style debate to be held between <i>17<sup>th</sup> September and 2<sup>nd</sup> October</i> with a <i>Virtual Preliminary</i> round and the <i>Final Rounds</i> as a part of an <i>Offline Leadership Retreat</i> at our scenic Vijaybhoomi campus in Karjat (Accommodation will be provided by FNF team). FNF 2023 brings to you debating and a lot more. Skills to make you a leader of the 21st Century, a leader with strong persuasive skills, adept at critical thinking, innovation, keen sense of creativity and out of the box views. FNF 2023 will build these skills through Initium, the skill building series, the Virtual Preliminary Debate round and an Offline Leadership Retreat including FNF Rounds at our picturesque Vijaybhoomi campus in Karjat, Maharashtra.</p>
+						<p>FNF 2023 will be a Hybrid British Parliamentary style debate to be held between <i>9<sup>th</sup> September and 2<sup>nd</sup> October</i> with a <i>Virtual Preliminary</i> round and the <i>Final Rounds</i> as a part of an <i>Offline Leadership Retreat</i> at our scenic Vijaybhoomi campus in Karjat (Accommodation will be provided by FNF team). FNF 2023 brings to you debating and a lot more. Skills to make you a leader of the 21st Century, a leader with strong persuasive skills, adept at critical thinking, innovation, keen sense of creativity and out of the box views. FNF 2023 will build these skills through Initium, the skill building series, the Virtual Preliminary Debate round and an Offline Leadership Retreat including FNF Rounds at our picturesque Vijaybhoomi campus in Karjat, Maharashtra.</p>
 						<p>FNF 2023 debating rounds will follow the <b>British Parliamentary Style Debate</b>. This style of debating is one of the more popular forms, based on debates in the British Parliament. Much like in the House of Commons, the debate is split into two opposing sides: the proposition (or government), and the opposition. Each side is then further divided into ‘opening’ and ‘closing’ teams, all four of which have two speakers each. These are named after their equivalent positions in the British Parliament. Coupled with the rounds of the debate, participants will be given the unprecedented opportunity to attend the <b>Leadership Retreat</b> at VBU. Participants will be able to experience many activities ranging from self-discovery and career counselling to workshops on specialized domains like entrepreneurship, design, music to an awe-inducing trek of the Karjat hills, drone pilot training workshop, bonfire, and much more.</p>
 						<!--	<p>Tucked in between the majestic valleys of Karjat, VijayBhoomi University is the perfect location to grow one’s life skills gearing them up for future endeavours. For not for 2023, aims to offer more than just a parliamentary debate competition. Coupled with the intense final rounds of the debate, participants will be given the unprecedented opportunity to attend the <b>Leadership Retreat</b> at VBU. Participants will be able to experience many activities ranging from psychometric tests to an awe-inducing trek of the Karjat hills. Each event adds its own life skill as a valued outcome. </p>
 		<p>Never before seen in an international parliamentary debate competition of its size, For Not For 2022’s leadership retreat is sure to ease the competitive and tense environment, transitioning into one of fun and learning. The leadership retreat takes VBU’s best offerings and invites all those qualifying participants for an exciting and educative time at the VijayBhoomi University Campus. </p> -->
@@ -383,46 +383,11 @@ $medium = $_GET['medium'];
 
 		</div>
 	</section>
-	<!-- Highlights -->
-	<section class="fnp22 bg-gray">
-		<h2 class="text-center">Milestones of FNF 2021</h2>
-		<div class="container mt-5 mb-0">
-			<div class="row text-center">
-				<div class="col">
-					<div class="counter1"> <i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
-						<h2 class="timer count-title1 count-number" data-to="230" data-speed="7000">₹</h2>
-						<p class="count-text ">Students</p>
-					</div>
-				</div>
-				<!-- <div class="col-md-3 col-sm-6 col-xs-12"> -->
-				<div class="col">
-					<div class="counter1"> <i class="fa fa-globe fa-5x" aria-hidden="true"></i>
-						<h2 class="timer count-title1 count-number" data-to="10" data-speed="7000"></h2>
-						<p class="count-text ">Countries</p>
-					</div>
-				</div>
-				<div class="col">
-					<div class="counter1"> <i class="fa fa-university fa-5x" aria-hidden="true"></i>
-						<h2 class="timer count-title1 count-number" data-to="162" data-speed="7000"></h2>
-						<p class="count-text ">Schools</p>
-					</div>
-				</div>
-				<div class="col">
-					<div class="counter1"> <i class="fa fa-smile-o fa-5x" aria-hidden="true"></i>
-						<h2 class="timer count-title1 count-number" data-to="230" data-speed="7000"></h2>
-						<p class="count-text ">Happy Participants</p>
-					</div>
-				</div>
-				<div class="col">
-					<div class="counter1"> <i class="fa fa-balance-scale fa-5x" aria-hidden="true"></i>
-						<h2 class="timer count-title1 count-number" data-to="75" data-speed="7000"></h2>
-						<p class="count-text ">Eminent Judges </p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /Highlights -->
+
+	<!-- milestones -->
+	<?php include_once "milestones.php"; ?>
+	<!-- milestones -->
+
 	<!-- Voice -->
 	<section class="fnp22 ">
 		<h2 class="text-center">The Voice of 2021</h5>

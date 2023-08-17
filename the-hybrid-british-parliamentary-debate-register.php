@@ -1,6 +1,4 @@
 <?php
-
-
 $source = $_GET['source'];
 $campaign = $_GET['campaign'];
 $medium = $_GET['medium'];
@@ -878,10 +876,10 @@ $medium = $_GET['medium'];
 										</fieldset>
 									</div>
 									<div class="form-holder form-group">
-										<!--	<fieldset>
-											<legend>Team Name<sup style="color:red;">*</sup> </legend>
-											<input type="text" class="form-control" id="lname" name="tname" placeholder="Team Name (for Hybrid Format) ">
-										</fieldset>-->
+										<fieldset>
+											<legend>WhatsApp Number<sup style="color:red;">*</sup></legend>
+											<input type="tel" class="form-control" id="phone" name="twphone" placeholder="Phone Number">
+										</fieldset>
 									</div>
 								</div>
 								<div class="form-row col-12">
@@ -1219,6 +1217,23 @@ $medium = $_GET['medium'];
 								regexp: {
 									regexp: /^[0-9]+$/,
 									message: 'Mobile number can only consist of number'
+								}
+							}
+						},
+						twphone: {
+							message: 'Mobile number is not valid',
+							validators: {
+								notEmpty: {
+									message: 'Required *'
+								},
+								//		stringLength: {
+								//			min: 10,
+								//			max: 10,
+								//			message: 'Enter 10 digit mobile number'
+								//		},
+								regexp: {
+									regexp: /^[0-9]+$/,
+									message: 'Whatsapp number can only consist of number'
 								}
 							}
 						},
