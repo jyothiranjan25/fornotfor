@@ -50,7 +50,7 @@ $medium = $_GET['medium'];
 						<section>
 							<div class="inner">
 								<div class="wizard-header">
-									<h3 class="heading">FOR NOT FOR 2021 Registration<br> Participant's Infomation</h3>
+									<h3 class="heading">FOR NOT FOR 2022 Registration<br> Participant's Infomation</h3>
 									<p>Please enter your infomation and proceed to the next step so we can process your registration. </p>
 								</div>
 								<div class="form-row">
@@ -250,7 +250,7 @@ $medium = $_GET['medium'];
 								<br>
 								<br>
 
-								<a href="" target="_blank"><button class="button" type="submit" value="register" name="submit" style="color:blue">Register Now</button></a>
+								<a href="" target="_blank"><button class="button" type="submit" value="register" name="submitReg" style="color:blue">Register Now</button></a>
 
 
 

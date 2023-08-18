@@ -42,7 +42,7 @@ $medium = $_GET['medium'];
 						<h2>
 							<span class="step-text">The Hybrid British Parliamentary Debate</span>
 						</h2>
-						<h3 class="heading">FOR NOT FOR 2022 Registration</h3>
+						<h3 class="heading">FOR NOT FOR 20223 Registration</h3>
 						<p class="para">Please enter your infomation so we can process your registration. </p>
 						<section>
 							<div class="inner">
@@ -790,7 +790,14 @@ $medium = $_GET['medium'];
 									<div class="form-holder form-group">
 										<fieldset>
 											<legend>Grade<sup style="color:red;">*</sup></legend>
-											<input type="text" class="form-control" id="grade" name="studentgrade1" placeholder="Grade">
+											<!-- <input type="text" class="form-control" id="grade" name="studentgrade1" placeholder="Grade"> -->
+											<select id="grade" name="studentgrade1" required>
+												<option value="" disabled="" selected="">Select Grade</option>
+												<option value="9">9</option>
+												<option value="10">10</option>
+												<option value="11">11</option>
+												<option value="12">12</option>
+											</select>
 										</fieldset>
 									</div>
 								</div>
@@ -827,7 +834,14 @@ $medium = $_GET['medium'];
 									<div class="form-holder form-group">
 										<fieldset>
 											<legend>Grade<sup style="color:red;">*</sup></legend>
-											<input type="text" class="form-control" id="grade" name="studentgrade2" placeholder="Grade">
+											<!-- <input type="text" class="form-control" id="grade" name="studentgrade2" placeholder="Grade"> -->
+											<select id="grade" name="studentgrade2" required>
+												<option value="" disabled="" selected="">Select Grade</option>
+												<option value="9">9</option>
+												<option value="10">10</option>
+												<option value="11">11</option>
+												<option value="12">12</option>
+											</select>
 										</fieldset>
 									</div>
 								</div>

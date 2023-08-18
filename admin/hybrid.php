@@ -126,12 +126,12 @@ error_reporting(0);
                     <a class="btn btn-success" href="hybird_form_edit.php?edit_id=<?php echo $row['id']; ?>">EDIT</a>
                   </td>
 
-                  <td>
+                  <!-- <td>
                     <form action="" method="post">
-                      <input type="hidden" name="delete_id" value="">
+                      <input type="hidden" name="delete_id" value="<?php echo $row['id']; ?>">
                       <button type="button" name="delete_btn" class="btn btn-danger deletereg" value="<?php echo $row['id']; ?>">DELETE</button>
                     </form>
-                  </td>
+                  </td> -->
                 </tr>
             <?php
                 $i++;

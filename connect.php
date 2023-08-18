@@ -4,6 +4,20 @@ require('razorpay-php/Razorpay.php');
 
 use Razorpay\Api\Api;
 
+//Import PHPMailer classes into the global namespace
+//These must be at the top of your script, not inside a function
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+//Load Composer's autoloader
+require 'phpmailer/src/Exception.php';
+require 'phpmailer/src/PHPMailer.php';
+require 'phpmailer/src/SMTP.php';
+
+//Create an instance; passing `true` enables exceptions
+$mail = new PHPMailer(true);
+
 // default amount
 $amountz = 1000;
 
@@ -131,11 +145,153 @@ if (isset($_POST['submithybridReg'])) {
 		require("checkout/{$checkout}.php");
 	} else {
 		echo "<script>alert('Something is fishy! Please try again...');
-		window.location.href='the-hybrid-british-parliamentary-debate-register.php';</script>";
+		window.location.href='index.php';</script>";
 		$log_msg = date('d-m-Y') . ': ' . 'Insert failed' . "\r";
 		error_log($log_msg, 3, 'error.log');
 	}
-} else {
-	echo "<script>alert('Something is fishy! Please try again...');
-    window.location.href='the-hybrid-british-parliamentary-debate-register.php';</script>";
+}
+
+if (isset($_POST['submitReg'])) {
+	try {
+		// $api = new Api($keyId, $keySecret);
+
+		// echo "<pre>";
+		// print_r($_POST);
+		// echo "</pre>"; 
+		// exit;
+
+		$fname = $_POST['fname'];
+
+		$lname = $_POST['lname'];
+		$gender = $_POST['gender'];
+
+		$grade = $_POST['grade'];
+		$stream = $_POST['stream'];
+
+		$interest = $_POST['interest'];
+		$email = $_POST['email'];
+
+		$phone = $_POST['phone'];
+		$wphone = $_POST['wphone'];
+
+		$sname = $_POST['sname'];
+		$sbname = $_POST['sbname'];
+
+		$saname = $_POST['saname'];
+		$spname = $_POST['spname'];
+
+		$spnumber = $_POST['spnumber'];
+		$spemail = $_POST['spemail'];
+		$scname = $_POST['scname'];
+
+		$scnumber = $_POST['scnumber'];
+		$scemail = $_POST['scemail'];
+
+		$source = $_POST['source'];
+		$medium = $_POST['medium'];
+		$campaign = $_POST['campaign'];
+
+		date_default_timezone_set('Asia/Kolkata');
+		$date = date('Y-m-d H:i:s');
+		if ($source == "") {
+			$source = 'Direct';
+			$medium = 'Direct';
+			$campaign = 'Direct';
+		}
+
+		$sql = "INSERT INTO `register`(`date`, `fname`, `lname`, `gender`, `grade`, `stream`, `interest`, `email`, `phone`, `wphone`, `sname`, `sbname`, `saname`, `spname`, `spnumber`, `spemail`, `scname`, `scnumber`, `scemail`, `source`, `medium`, `campaign`) VALUES ('$date','$fname','$lname','$gender','$grade','$stream','$interest','$email','$phone','$wphone','$sname','$sbname','$saname','$spname','$spnumber','$spemail','$scname','$scnumber','$scemail','$source','$medium','$campaign')";
+		$status = $connection->query($sql);
+		// payment gateway
+
+		if ($status) {
+			//echo "success";
+			// $setemail = "info@vijaybhoomi.edu.in";
+			// $host = "smtp.office365.com";
+			// $username = "info@vijaybhoomi.edu.in";
+			// $password = "Zab73739";
+			$setemail = "collab@vijaybhoomi.edu.in";
+			$host = "smtp.office365.com";
+			$username = "collab@vijaybhoomi.edu.in";
+			$password = "Bam17608";
+
+			$mail->isSMTP(); // Send using SMTP
+			$mail->Host = $host; // Set the SMTP server to send through
+			$mail->SMTPAuth = true; // Enable SMTP authentication
+			$mail->Username = $username; // SMTP username
+			$mail->Password = $password; // SMTP password
+			$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
+			$mail->Port = 587;
+
+			// TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+			// TCP port to connect to, use 587 for `PHPMailer::ENCRYPTION_STARTTLS` above
+			// ---------------------------------------------------------
+
+			//Recipients
+			// $mail->setFrom($email, $type);
+			// $mail->setFrom($email);
+			// $mail->addAddress($setemail); // Add a recipient
+
+
+			// ---------------------------------------------------------
+
+			// ---------------------------------------------------------
+			$mail->From = trim($setemail);
+			$mail->FromName = trim('Fornotfor');
+			$mail->AddAddress($email); // email
+			$mail->AddAddress($spemail); // Principal Email
+			$mail->AddAddress($scemail); // Coordinator Email
+			//$mail->AddReplyTo(trim('mahesh.j@briskon.com'));
+			// ---------------------------------------------------------
+
+			// Content
+			$mail->isHTML(true); // Set email format to HTML
+			$mail->Subject = 'FOR NOT FOR International Hybrid British Parliamentary Debate Competition 2022';
+			$message = '
+		<table style="border-collapse: collapse; " width="100%">
+		    <tbody>
+		        <tr>
+		        <tr>
+		            <td width="50%">
+		                <img src="https://vijaybhoomi.edu.in/fornotfor/images/fornotfor1.png" width="170px">
+		            </td>
+		            <td width="50%" align="right">
+		                <img src="https://vijaybhoomi.edu.in/images/logomain.webp" width="210px">
+		            </td>
+		        </tr>
+		        </tr>
+		    </tbody>
+		</table>
+		<br>
+		Dear Team, <br><br>
+		Thank you for registering for the <span style="font-style: italic;font-weight:bold">FOR NOT FOR International Debate Competition 2022</span> from Vijaybhoomi University. <br><br>
+		We will be sending you all further information about the Competition, as well as your topic 24 hours before your Preliminary Round. If you do not receive an email by 16th September, 6 pm, please email/call us.<br><br>
+		Visit <a href="https://vijaybhoomi.edu.in/fornotfor/">https://vijaybhoomi.edu.in/fornotfor/</a> to understand the Format, Rules and the Process for the debate which can be found in the <span style="font-weight:bold">FOR NOT FOR Brochure.</span><br><br>
+		We also request you to join the Official Participants WhatsApp Group via this link: <a href="https://chat.whatsapp.com/GPOKg3vupCc7AylXIYtO6c">https://chat.whatsapp.com/GPOKg3vupCc7AylXIYtO6c</a><br><br>
+		For further information, please write to us at <a href="mailto:fornotfor@vijaybhoomi.edu.in">fornotfor@vijaybhoomi.edu.in.</a> We wish you the very best.<br><br>
+		Best Regards, <br>
+		Team <span style="font-style: italic;">FOR NOT FOR</span> <br>
+		<span style="font-weight:bold">Email:</span> <a href="mailto:fornotfor@vijaybhoomi.edu.in">fornotfor@vijaybhoomi.edu.in</a> <br>
+		<span style="font-weight:bold"><u>Student Coordinators for any queries:</u></span><br>
+		<span style="color:red;font-weight:bold">Yosha: +91 78924 56300 / Ben: +91 90721 55310 </span> <br>
+		';
+			$mail->Body = $message;
+
+			//$mail->send();
+			if ($mail->send()) {
+				$log_msg = date('d-m-Y') . ': ' . 'Mail Sent to ' .  $email . "\r";
+				error_log($log_msg, 3, 'error.log');
+			} else {
+				$log_msg = date('d-m-Y') . ': ' . 'Payment Failure: ' .  $mail->ErrorInfo . "\r";
+				error_log($log_msg, 3, 'error.log');
+			}
+		}
+	} catch (mysqli_sql_exception $e) {
+		// If an exception is caught, log the error and redirect to error page
+		$error_log = "MySQL Error: " . $e->getMessage() . " - " . date('d-M-Y h:i:s A') . "\r";
+		error_log($error_log, 3, "error.log");
+		// header("Location: index.php");
+		echo "<script>alert('Something is fishy! Please try again...');
+			window.location.href='index.php';</script>";
+		exit;
+	}
 }

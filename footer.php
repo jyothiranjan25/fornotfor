@@ -16,7 +16,7 @@
 					<ul class="list-unstyled">
 						<li class="mb-3"><a class="text-color" href="index.php">FNF 2023</a></li>
 						<li class="mb-3"><a class="text-color" href="leadership-retreat.php">LEADERSHIP RETREAT</a></li>
-						<li class="mb-3"><a class="text-color" href="register.php">FNF 2021</a></li>
+						<li class="mb-3"><a class="text-color" href="register.php">FNF 2022</a></li>
 					</ul>
 				</div>
 				<!-- links -->

@@ -4,5 +4,8 @@
 # Ignore pdf files
 *.pdf
 
+# Ignore pdf files
+*.log
+
 # Ignore video files
 **/video
