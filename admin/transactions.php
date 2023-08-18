@@ -43,12 +43,16 @@ error_reporting(0);
 
       <div class="table-responsive">
         <?php
-        $query = " SELECT DISTINCT HR.*, TS.*
+        $query = " SELECT HR.id, HR.state, HR.city, HR.pschool, HR.branch, HR.ofcemail, HR.principalno, HR.principalemail, HR.student1, HR.studentgrade1, HR.studentemail1, HR.studentphone, HR.wphone, HR.student2, HR.studentgrade2, HR.studentemail2, HR.studentphone2, HR.wphone2, TS.transaction_ref_no, TS.amount, TS.orderid, TS.payment_status
         FROM `hybrid-registration` AS HR
         LEFT JOIN `transactions` AS TS ON HR.id = TS.hybrid_registration_id
-        WHERE `status` = 1 AND `markasdelete` IS NULL
+        WHERE HR.`status` = 1 AND HR.`markasdelete` IS NULL
         GROUP BY HR.id, HR.state, HR.city, HR.pschool, HR.branch, HR.ofcemail, HR.principalno, HR.principalemail, HR.student1, HR.studentgrade1, HR.studentemail1, HR.studentphone, HR.wphone, HR.student2, HR.studentgrade2, HR.studentemail2, HR.studentphone2, HR.wphone2, TS.transaction_ref_no, TS.amount, TS.orderid, TS.payment_status";
         $query_run = mysqli_query($connection, $query);
+
+        if (!$query_run) {
+          echo "Query Error: " . mysqli_error($connection);
+        }
 
         ?>
 

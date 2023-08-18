@@ -24,130 +24,146 @@ $amountz = 1000;
 
 if (isset($_POST['submithybridReg'])) {
 
-	$api = new Api($keyId, $keySecret);
+	try {
+		$api = new Api($keyId, $keySecret);
 
-	// echo "<pre>";
-	// print_r($_POST);
-	// echo "</pre>"; 
-	// exit;
+		// echo "<pre>";
+		// print_r($_POST);
+		// echo "</pre>"; 
+		// exit;
 
-	$state = $_POST['state'];
-	$city = $_POST['city'];
+		$state = $_POST['state'];
+		$city = $_POST['city'];
 
-	$pschool = $_POST['pschool'];
-	$branch = $_POST['branch'];
+		$pschool = $_POST['pschool'];
+		$branch = $_POST['branch'];
 
-	$ofcemail = $_POST['ofcemail'];
-	$principalno = $_POST['principalno'];
+		$ofcemail = $_POST['ofcemail'];
+		$principalno = $_POST['principalno'];
 
-	$principalemail = $_POST['principalemail'];
-	$student1 = $_POST['student1'];
+		$principalemail = $_POST['principalemail'];
+		$student1 = $_POST['student1'];
 
-	$studentgrade1 = $_POST['studentgrade1'];
-	$studentemail1 = $_POST['studentemail'];
+		$studentgrade1 = $_POST['studentgrade1'];
+		$studentemail1 = $_POST['studentemail'];
 
-	$studentphone = $_POST['studentphone'];
-	$wphone = $_POST['wphone'];
+		$studentphone = $_POST['studentphone'];
+		$wphone = $_POST['wphone'];
 
-	$student2 = $_POST['student2'];
-	$studentgrade2 = $_POST['studentgrade2'];
+		$student2 = $_POST['student2'];
+		$studentgrade2 = $_POST['studentgrade2'];
 
-	$studentemail2 = $_POST['studentemail2'];
-	$studentphone2 = $_POST['studentphone2'];
+		$studentemail2 = $_POST['studentemail2'];
+		$studentphone2 = $_POST['studentphone2'];
 
-	$wphone2 = $_POST['wphone2'];
-	$teacher = $_POST['teacher'];
+		$wphone2 = $_POST['wphone2'];
+		$teacher = $_POST['teacher'];
 
-	$teacheremail = $_POST['teacheremail'];
-	$teacherphone = $_POST['teacherphone'];
-	$twphone = $_POST['twphone'];
+		$teacheremail = $_POST['teacheremail'];
+		$teacherphone = $_POST['teacherphone'];
+		$twphone = $_POST['twphone'];
 
-	$tname = $_POST['tname'];
-	$travel = $_POST['travel'];
+		$tname = $_POST['tname'];
+		$travel = $_POST['travel'];
 
-	$source = $_POST['source'];
-	$medium = $_POST['medium'];
-	$campaign = $_POST['campaign'];
-	date_default_timezone_set('Asia/Kolkata');
-	$createdon = date('Y-m-d H:i:s');
-	if ($source == "") {
+		$source = $_POST['source'];
+		$medium = $_POST['medium'];
+		$campaign = $_POST['campaign'];
+		date_default_timezone_set('Asia/Kolkata');
+		$createdon = date('Y-m-d H:i:s');
+		if ($source == "") {
 
-		$source = 'Direct';
-		$medium = 'Direct';
-		$campaign = 'Direct';
-	}
+			$source = 'Direct';
+			$medium = 'Direct';
+			$campaign = 'Direct';
+		}
 
-	$sql = " INSERT INTO `hybrid-registration` (`state`, city, pschool, branch, ofcemail, principalno, principalemail, student1, studentgrade1, studentemail1, studentphone, wphone, student2, studentgrade2, studentemail2, studentphone2, wphone2, teacher, teacheremail, teacherphone, twphone, tname, travel,status,createdon) VALUES ('$state', '$city' , '$pschool' , '$branch' , '$ofcemail' , '$principalno' , '$principalemail' , '$student1' , '$studentgrade1', '$studentemail1', '$studentphone', '$wphone', '$student2', '$studentgrade2', '$studentemail2', '$studentphone2', '$wphone2',  '$teacher',  '$teacheremail', '$teacherphone', '$twphone', '$tname', '$travel','1','$createdon')";
-	$status = $connection->query($sql);
-	// payment gateway
-	if ($status) {
+		$sql = "INSERT INTO `hybrid-registration` (`state`, city, pschool, branch, ofcemail, principalno, principalemail, student1, studentgrade1, studentemail1, studentphone, wphone, student2, studentgrade2, studentemail2, studentphone2, wphone2, teacher, teacheremail, teacherphone, twphone, tname, travel, status, createdon) VALUES ('$state', '$city', '$pschool', '$branch', '$ofcemail', '$principalno', '$principalemail', '$student1', '$studentgrade1', '$studentemail1', '$studentphone', '$wphone', '$student2', '$studentgrade2', '$studentemail2', '$studentphone2', '$wphone2', '$teacher', '$teacheremail', '$teacherphone', '$twphone', '$tname', '$travel', '1', '$createdon')";
+		$status = mysqli_query($connection, $sql);
 
-		// Get the auto-generated ID of the inserted row
-		$inserted_id = mysqli_insert_id($connection);
+		if (!$status) {
+			// echo "Error description: " . mysqli_error($connection);
+			error_log(mysqli_error($connection), 3, 'error.log');
+		}
 
-		$orderData = [
-			'receipt'         => $inserted_id,
-			'amount'          => $amountz * 100, // 2000 rupees in paise
-			'currency'        => 'INR',
-			'payment_capture' => 1 // auto capture
-		];
+		// payment gateway
+		if ($status == true) {
+			// Get the auto-generated ID of the inserted row
+			$inserted_id = mysqli_insert_id($connection);
 
-		$razorpayOrder = $api->order->create($orderData);
+			$orderData = [
+				'receipt'         => $inserted_id,
+				'amount'          => $amountz * 100, // 2000 rupees in paise
+				'currency'        => 'INR',
+				'payment_capture' => 1 // auto capture
+			];
 
-		$razorpayOrderId = $razorpayOrder['id'];
+			$razorpayOrder = $api->order->create($orderData);
 
-		$_SESSION['razorpay_order_id'] = $razorpayOrderId;
+			$razorpayOrderId = $razorpayOrder['id'];
 
-		$displayAmount = $amount = $orderData['amount'];
+			$_SESSION['razorpay_order_id'] = $razorpayOrderId;
 
-		// if ($displayCurrency !== 'INR') {
-		// 	$url = "https://api.fixer.io/latest?symbols=$displayCurrency&base=INR";
-		// 	$exchange = json_decode(file_get_contents($url), true);
+			$displayAmount = $amount = $orderData['amount'];
 
-		// 	$displayAmount = $exchange['rates'][$displayCurrency] * $amount / 100;
-		// }
+			// if ($displayCurrency !== 'INR') {
+			// 	$url = "https://api.fixer.io/latest?symbols=$displayCurrency&base=INR";
+			// 	$exchange = json_decode(file_get_contents($url), true);
 
-		$checkout = 'manual';
+			// 	$displayAmount = $exchange['rates'][$displayCurrency] * $amount / 100;
+			// }
 
-		// if (isset($_GET['checkout']) and in_array($_GET['checkout'], ['automatic', 'manual'], true))
-		// {
-		//     $checkout = $_GET['checkout'];
-		// }
+			$checkout = 'manual';
 
-		$data = [
-			"key"               => $keyId,
-			"amount"            => $amount,
-			"name"              => "fornotfor2023",
-			"description"       => "FOR-NOT-FOR",
-			"image"             => "https://ifim.edu.in/kanyathon/wp-content/uploads/2020/10/cropped-logo-1.png",
-			"prefill"           => [
-				"name"              => $teacher,
-				"email"             => $teacheremail,
-				"contact"           => $teacherphone,
-			],
-			"notes"             => [
-				"address"           => "registered_id",
-				"merchant_order_id" => $inserted_id,
-			],
-			"theme"             => [
-				"color"             => "#00dcf5"
-			],
-			"order_id"          => $razorpayOrderId,
-		];
+			// if (isset($_GET['checkout']) and in_array($_GET['checkout'], ['automatic', 'manual'], true))
+			// {
+			//     $checkout = $_GET['checkout'];
+			// }
 
-		// if ($displayCurrency !== 'INR') {
-		// 	$data['display_currency']  = $displayCurrency;
-		// 	$data['display_amount']    = $displayAmount;
-		// }
+			$data = [
+				"key"               => $keyId,
+				"amount"            => $amount,
+				"name"              => "fornotfor2023",
+				"description"       => "FOR-NOT-FOR",
+				"image"             => "https://ifim.edu.in/kanyathon/wp-content/uploads/2020/10/cropped-logo-1.png",
+				"prefill"           => [
+					"name"              => $teacher,
+					"email"             => $teacheremail,
+					"contact"           => $teacherphone,
+				],
+				"notes"             => [
+					"address"           => "registered_id",
+					"merchant_order_id" => $inserted_id,
+				],
+				"theme"             => [
+					"color"             => "#00dcf5"
+				],
+				"order_id"          => $razorpayOrderId,
+			];
 
-		$json = json_encode($data);
-		require("checkout.php");
-		require("checkout/{$checkout}.php");
-	} else {
+			// if ($displayCurrency !== 'INR') {
+			// 	$data['display_currency']  = $displayCurrency;
+			// 	$data['display_amount']    = $displayAmount;
+			// }
+
+			$json = json_encode($data);
+			require("checkout.php");
+			require("checkout/{$checkout}.php");
+		} else {
+			$log_msg = date('d-m-Y') . ': ' . 'Insert failed' . "\r";
+			error_log($log_msg, 3, 'error.log');
+			echo "<script>alert('Something is fishy! Please try again...');
+			window.location.href='index.php';</script>";
+			exit;
+		}
+	} catch (mysqli_sql_exception $e) {
+		// If an exception is caught, log the error and redirect to error page
+		$error_log = "MySQL Error: " . $e->getMessage() . " - " . date('d-M-Y h:i:s A') . "\r";
+		error_log($error_log, 3, "error.log");
+		// header("Location: index.php");
 		echo "<script>alert('Something is fishy! Please try again...');
 		window.location.href='index.php';</script>";
-		$log_msg = date('d-m-Y') . ': ' . 'Insert failed' . "\r";
-		error_log($log_msg, 3, 'error.log');
+		exit;
 	}
 }
 
@@ -200,10 +216,10 @@ if (isset($_POST['submitReg'])) {
 		}
 
 		$sql = "INSERT INTO `register`(`date`, `fname`, `lname`, `gender`, `grade`, `stream`, `interest`, `email`, `phone`, `wphone`, `sname`, `sbname`, `saname`, `spname`, `spnumber`, `spemail`, `scname`, `scnumber`, `scemail`, `source`, `medium`, `campaign`) VALUES ('$date','$fname','$lname','$gender','$grade','$stream','$interest','$email','$phone','$wphone','$sname','$sbname','$saname','$spname','$spnumber','$spemail','$scname','$scnumber','$scemail','$source','$medium','$campaign')";
-		$status = $connection->query($sql);
+		$status = mysqli_query($connection, $sql);
 		// payment gateway
 
-		if ($status) {
+		if ($status == true) {
 			//echo "success";
 			// $setemail = "info@vijaybhoomi.edu.in";
 			// $host = "smtp.office365.com";
@@ -284,6 +300,12 @@ if (isset($_POST['submitReg'])) {
 				$log_msg = date('d-m-Y') . ': ' . 'Payment Failure: ' .  $mail->ErrorInfo . "\r";
 				error_log($log_msg, 3, 'error.log');
 			}
+		} else {
+			$log_msg = date('d-m-Y') . ': ' . 'Insert failed' . "\r";
+			error_log($log_msg, 3, 'error.log');
+			echo "<script>alert('Something is fishy! Please try again...');
+			window.location.href='index.php';</script>";
+			exit;
 		}
 	} catch (mysqli_sql_exception $e) {
 		// If an exception is caught, log the error and redirect to error page
