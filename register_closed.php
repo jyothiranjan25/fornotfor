@@ -18,7 +18,7 @@ error_reporting(0);
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FNF 2022</title>
+    <title>FNF 2023</title>
     <link href="kanyathon-logo.png" rel="shortcut icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -48,7 +48,7 @@ error_reporting(0);
                     <center>
                         <img src="images/fnf_gif_2.gif" class="img-fluid"> <br><br>
                         <div class="alert alert-success animate_animated animate_bounce">
-                            <div class="col-md-12 col-sm-12"> <strong>Oops!! Registrations for For Not For 2022 are closed.</strong>
+                            <div class="col-md-12 col-sm-12"> <strong>Oops!! Registrations for For Not For 2023 are closed.</strong>
                             </div>
                         </div>
                     </center>

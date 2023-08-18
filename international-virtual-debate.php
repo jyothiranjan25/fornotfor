@@ -127,7 +127,7 @@
       <div class="row">
         <div class="col-12">
           <h2 class="section-title">Virtual International Debate</h2>
-          <p>To cater to the interests of debate enthusiasts from across the globe we bring to you, FNF 2022 - “Virtual International Debate”. This model is purely for our international audience i.e. students from schools situated outside India. To allow for international students to freely express their views on contemporary topics, FNF 2022 will continue with an independent model where all rounds will be conducted virtually. </p>
+          <p>To cater to the interests of debate enthusiasts from across the globe we bring to you, FNF 2023 - “Virtual International Debate”. This model is purely for our international audience i.e. students from schools situated outside India. To allow for international students to freely express their views on contemporary topics, FNF 2023 will continue with an independent model where all rounds will be conducted virtually. </p>
           <ul class="objectives pt-0">
             <li>The format of the virtual debate will be 1v1 (Lincoln- Douglas Format).</li>
             <li>Students of Standard 11 or 12 from only outside India can participate.</li>
@@ -160,7 +160,7 @@
                 <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#monday" role="tab" aria-controls="monday" aria-expanded="true">
                   <div class="item-text">
                     <h4>Saturday</h4>
-                    <h5>3rd September, 2022</h5>
+                    <h5>3rd September, 2023</h5>
                   </div>
                 </a>
               </li>
@@ -168,7 +168,7 @@
                 <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#tuesday" role="tab" aria-controls="tuesday">
                   <div class="item-text">
                     <h4>Wednesday</h4>
-                    <h5>7th September, 2022</h5>
+                    <h5>7th September, 2023</h5>
                   </div>
                 </a>
               </li>
@@ -176,7 +176,7 @@
                 <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday">
                   <div class="item-text">
                     <h4>Saturday</h4>
-                    <h5>10th September, 2022</h5>
+                    <h5>10th September, 2023</h5>
                   </div>
                 </a>
               </li>
@@ -184,7 +184,7 @@
                 <a class="nav-link" id="thursday-tab" data-toggle="tab" href="#thursday" role="tab" aria-controls="thursday">
                   <div class="item-text">
                     <h4>Sunday</h4>
-                    <h5>11th September, 2022</h5>
+                    <h5>11th September, 2023</h5>
                   </div>
                 </a>
               </li>

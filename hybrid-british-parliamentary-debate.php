@@ -117,7 +117,7 @@
 				<div class="col-12">
 					<h2 class="section-title">The Hybrid British Parliamentary Debate</h2>
 					<ul class="objectives" style="padding-top:0px;">
-						<li>The Hybrid British Parliamentary Debate will be held in September 2022</li>
+						<li>The Hybrid British Parliamentary Debate will be held in September 2023</li>
 						<li>British Parliamentary Debate format</li>
 						<li><i>Preliminary Rounds</i> will be held <b>virtually</b> on 4th September where 32 teams will qualify to the Pre- Quarter round.</li>
 						<li>32 teams that qualify for the <i>Pre-Quarter Finals</i> will be invited to the Vijaybhoomi Campus (Karjat, Maharashtra) to battle it out <b>offline</b> at the FNF Leadership Retreat from 22nd September to 25th September.</li>
@@ -163,7 +163,7 @@
 								<a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday">
 									<div class="item-text">
 										<h4>Friday</h4>
-										<h5>23rd September, 2022</h5>
+										<h5>23rd September, 2023</h5>
 									</div>
 								</a>
 							</li> -->

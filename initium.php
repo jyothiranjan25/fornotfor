@@ -151,7 +151,7 @@
       <div class="row">
         <div class="col-12">
           <h2 class="section-title">Initium</h2>
-          <p> Initium is a series of activities and events which precede the main rounds of the For Not For International Debate competition 2023. It had its inaugural version in the year of 2022 and from the very first day it was memorable for being interesting as well as being an event conducted in no other debate competition.</p>
+          <p> Initium is a series of activities and events which precede the main rounds of the For Not For International Debate competition 2023. It had its inaugural version in the year of 2023 and from the very first day it was memorable for being interesting as well as being an event conducted in no other debate competition.</p>
           <p>This year is no different with a highly decorated lineup of experts in the field of debating, ready to induce not only the various technical aspects of parliamentary debates but also in invoking that exciting competitive spirit among the students. Participants being at a nascent stage in debating will receive vital advice in how to conduct themselves as well as making arguments in sessions. All this, aiding in making the competition even more competitive and interesting. Initium 2023 is bigger and will surely help in warming up for the main event!</p>
           <h2 class="section-title mt-5">Calendar of Activities – Initium 2023</h2>
           <h3 class="section-title mt-5">Calendar of Events for FNF 2023 to be updated soon</h3>
@@ -254,4 +254,5 @@
   <script src="js/counter.js"></script>
   <script src="js/lightslider.js"></script>
 </body>
+
 </html>

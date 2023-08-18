@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>FNF 2022 Prizes</title>
+  <title>FNF 2023 Prizes</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -111,7 +111,7 @@
       <div class="row">
         <div class="col-md-8">
           <ul class="list-inline custom-breadcrumb">
-            <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="#">FNF 2022 Prizes</a></li>
+            <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="#">FNF 2023 Prizes</a></li>
             <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
           </ul>
 
@@ -126,7 +126,7 @@
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <h3 class="section-title mb-0">FNF 2022- The Hybrid British Parliamentary Debate (BPD)</h3>
+          <h3 class="section-title mb-0">FNF 2023- The Hybrid British Parliamentary Debate (BPD)</h3>
           <ul class="objectives">
             <li>Winner Team – Rs. One Lakh+ Plaque and Certificate, Scholarship, Internship</li>
             <li>Runner Up -     Rs. 50000 + Plaque and Certificate, Scholarship, Internship at VU</li>
@@ -135,7 +135,7 @@
             <li>Pre Quarter, Quarter, Semi, Final Round Finalists – Certificates, Scholarship, Internship at VU</li>
             <li>All Participants – Participant Certificate, Online Career Counselling Session</li>
           </ul>
-          <!--    <h3 class="section-title mb-0">FNF 2022- The International Virtual Debate (One on One)</h3>
+          <!--    <h3 class="section-title mb-0">FNF 2023- The International Virtual Debate (One on One)</h3>
 								<ul class="objectives">
 									<li>Winner      – Rs. 50000 + Plaque and Certificate, Scholarship, Internship</li>
 									<li>Runner Up – Rs. 25000 + Plaque and Certificate, Scholarship, Internship</li>

@@ -42,7 +42,7 @@ $medium = $_GET['medium'];
 						<h2>
 							<span class="step-text">The Hybrid British Parliamentary Debate</span>
 						</h2>
-						<h3 class="heading">FOR NOT FOR 20223 Registration</h3>
+						<h3 class="heading">FOR NOT FOR 2023 Registration</h3>
 						<p class="para">Please enter your infomation so we can process your registration. </p>
 						<section>
 							<div class="inner">

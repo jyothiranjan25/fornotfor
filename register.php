@@ -50,7 +50,7 @@ $medium = $_GET['medium'];
 						<section>
 							<div class="inner">
 								<div class="wizard-header">
-									<h3 class="heading">FOR NOT FOR 2022 Registration<br> Participant's Infomation</h3>
+									<h3 class="heading">FOR NOT FOR 2023 Registration<br> Participant's Infomation</h3>
 									<p>Please enter your infomation and proceed to the next step so we can process your registration. </p>
 								</div>
 								<div class="form-row">

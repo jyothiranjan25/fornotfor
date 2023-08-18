@@ -47,7 +47,7 @@
 			<div class="row">
 				<div class="col-md-8">
 					<ul class="list-inline custom-breadcrumb">
-						<li class="list-inline-item"><a class="h2 text-primary font-secondary" href="#">FNF 2022 Rule Book </a></li>
+						<li class="list-inline-item"><a class="h2 text-primary font-secondary" href="#">FNF 2023 Rule Book </a></li>
 						<li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
 					</ul>
 
@@ -63,7 +63,7 @@
 
 			<div class="row">
 				<div class="col-md-7 col-sm-12 col-xs-12">
-					<h2 class="section-title lr">FNF 2022 Rule Book</h2>
+					<h2 class="section-title lr">FNF 2023 Rule Book</h2>
 				</div>
 				<div class="col-md-5 col-sm-12 col-xs-12">
 					<a href="downloads/rule-book.pdf" target="_blank" class="card-link lrb">Download Rule Book</a>

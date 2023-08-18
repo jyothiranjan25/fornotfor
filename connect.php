@@ -245,7 +245,7 @@ if (isset($_POST['submitReg'])) {
 
 			// Content
 			$mail->isHTML(true); // Set email format to HTML
-			$mail->Subject = 'FOR NOT FOR International Hybrid British Parliamentary Debate Competition 2022';
+			$mail->Subject = 'FOR NOT FOR International Hybrid British Parliamentary Debate Competition 2023';
 			$message = '
 		<table style="border-collapse: collapse; " width="100%">
 		    <tbody>
@@ -263,7 +263,7 @@ if (isset($_POST['submitReg'])) {
 		</table>
 		<br>
 		Dear Team, <br><br>
-		Thank you for registering for the <span style="font-style: italic;font-weight:bold">FOR NOT FOR International Debate Competition 2022</span> from Vijaybhoomi University. <br><br>
+		Thank you for registering for the <span style="font-style: italic;font-weight:bold">FOR NOT FOR International Debate Competition 2023</span> from Vijaybhoomi University. <br><br>
 		We will be sending you all further information about the Competition, as well as your topic 24 hours before your Preliminary Round. If you do not receive an email by 16th September, 6 pm, please email/call us.<br><br>
 		Visit <a href="https://vijaybhoomi.edu.in/fornotfor/">https://vijaybhoomi.edu.in/fornotfor/</a> to understand the Format, Rules and the Process for the debate which can be found in the <span style="font-weight:bold">FOR NOT FOR Brochure.</span><br><br>
 		We also request you to join the Official Participants WhatsApp Group via this link: <a href="https://chat.whatsapp.com/GPOKg3vupCc7AylXIYtO6c">https://chat.whatsapp.com/GPOKg3vupCc7AylXIYtO6c</a><br><br>

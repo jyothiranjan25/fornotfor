@@ -44,7 +44,7 @@ $medium = $_GET['medium'];
 						<h2>
 							<span class="step-text">The International Virtual Debate</span>
 						</h2>
-						<h3 class="heading">FOR NOT FOR 2022 Registration</h3>
+						<h3 class="heading">FOR NOT FOR 2023 Registration</h3>
 						<p class="para">Please enter your infomation so we can process your registration. </p>
 						<section>
 							<div class="inner">
@@ -88,7 +88,7 @@ $medium = $_GET['medium'];
 									<div class="form-holder form-group">
 										<fieldset>
 											<legend>Official Email ID of the school</legend>
-											<input type="email" name="ofcemail" id="email" class="form-control"  placeholder="Email Id">
+											<input type="email" name="ofcemail" id="email" class="form-control" placeholder="Email Id">
 										</fieldset>
 									</div>
 								</div>
@@ -102,7 +102,7 @@ $medium = $_GET['medium'];
 									<div class="form-holder form-group">
 										<fieldset>
 											<legend>Principal Email Id</legend>
-											<input type="email" name="principalemail" id="email" class="form-control"  placeholder="Principal Email Id">
+											<input type="email" name="principalemail" id="email" class="form-control" placeholder="Principal Email Id">
 										</fieldset>
 									</div>
 								</div>
@@ -124,7 +124,7 @@ $medium = $_GET['medium'];
 									<div class="form-holder form-group">
 										<fieldset>
 											<legend>Email Id</legend>
-											<input type="email" name="studentemail" id="email" class="form-control"  placeholder="Email Id">
+											<input type="email" name="studentemail" id="email" class="form-control" placeholder="Email Id">
 										</fieldset>
 									</div>
 									<div class="form-holder form-group">
@@ -279,7 +279,7 @@ $medium = $_GET['medium'];
 						validators: {
 							notEmpty: {
 								message: 'Official email id of the school is required and cannot be empty'
-							}							
+							}
 						}
 					},
 					principalno: {
@@ -290,7 +290,7 @@ $medium = $_GET['medium'];
 							},
 							stringLength: {
 								min: 10,
-								max: 10,								
+								max: 10,
 								message: 'Enter 10 digit mobile number'
 							},
 							regexp: {
@@ -348,7 +348,7 @@ $medium = $_GET['medium'];
 							},
 							stringLength: {
 								min: 10,
-								max: 10,								
+								max: 10,
 								message: 'Enter 10 digit mobile number'
 							},
 							regexp: {
@@ -365,7 +365,7 @@ $medium = $_GET['medium'];
 							},
 							stringLength: {
 								min: 10,
-								max: 10,								
+								max: 10,
 								message: 'Enter 10 digit mobile number'
 							},
 							regexp: {
