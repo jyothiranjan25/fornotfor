@@ -113,7 +113,7 @@ $medium = $_GET['medium'];
 							<div class="row">
 								<div class="col-md-12">
 									<h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Want to have the most Influential Debate of all time? Battle it Out - 2v2 on the 9th of September 2023.</h1>
-									<!-- <p class="text-muted mb-4" style="font-size: 22px;" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4"> For Not For 2021, the second virtual edition is to be held between 2nd October 2021 and 10th October. </p> <a href="register_closed.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register now</a>-->
+									<!-- <p class="text-muted mb-4" style="font-size: 22px;" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4"> For Not For 2022, the second virtual edition is to be held between 2nd October 2022 and 10th October. </p> <a href="register_closed.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register now</a>-->
 								</div>
 							</div>
 						</div>
@@ -306,7 +306,7 @@ $medium = $_GET['medium'];
 					<div class="bg-white" style="box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
     padding: 25px">
 						<h2 class="section-title">FOR NOT FOR 2023</h2>
-						<!--	<h3 class="section-title"> 2<sup>nd</sup> Oct 2021</h3> -->
+						<!--	<h3 class="section-title"> 2<sup>nd</sup> Oct 2022</h3> -->
 						<p>FNF 2023 will be a Hybrid British Parliamentary style debate to be held between <i>9<sup>th</sup> September and 2<sup>nd</sup> October</i> with a <i>Virtual Preliminary</i> round and the <i>Final Rounds</i> as a part of an <i>Offline Leadership Retreat</i> at our scenic Vijaybhoomi campus in Karjat (Accommodation will be provided by FNF team). FNF 2023 brings to you debating and a lot more. Skills to make you a leader of the 21st Century, a leader with strong persuasive skills, adept at critical thinking, innovation, keen sense of creativity and out of the box views. FNF 2023 will build these skills through Initium, the skill building series, the Virtual Preliminary Debate round and an Offline Leadership Retreat including FNF Rounds at our picturesque Vijaybhoomi campus in Karjat, Maharashtra.</p>
 						<p>FNF 2023 debating rounds will follow the <b>British Parliamentary Style Debate</b>. This style of debating is one of the more popular forms, based on debates in the British Parliament. Much like in the House of Commons, the debate is split into two opposing sides: the proposition (or government), and the opposition. Each side is then further divided into ‘opening’ and ‘closing’ teams, all four of which have two speakers each. These are named after their equivalent positions in the British Parliament. Coupled with the rounds of the debate, participants will be given the unprecedented opportunity to attend the <b>Leadership Retreat</b> at VBU. Participants will be able to experience many activities ranging from self-discovery and career counselling to workshops on specialized domains like entrepreneurship, design, music to an awe-inducing trek of the Karjat hills, drone pilot training workshop, bonfire, and much more.</p>
 						<!--	<p>Tucked in between the majestic valleys of Karjat, VijayBhoomi University is the perfect location to grow one’s life skills gearing them up for future endeavours. For not for 2023, aims to offer more than just a parliamentary debate competition. Coupled with the intense final rounds of the debate, participants will be given the unprecedented opportunity to attend the <b>Leadership Retreat</b> at VBU. Participants will be able to experience many activities ranging from psychometric tests to an awe-inducing trek of the Karjat hills. Each event adds its own life skill as a valued outcome. </p>
@@ -390,7 +390,7 @@ $medium = $_GET['medium'];
 
 	<!-- Voice -->
 	<section class="fnp22 ">
-		<h2 class="text-center">The Voice of 2021</h5>
+		<h2 class="text-center">The Voice of 2022</h5>
 
 			<div class="container my-5">
 

@@ -363,7 +363,7 @@
   <!-- /about -->
   <!-- Highlights -->
   <section class="fnp22">
-    <h2 class="text-center">Milestones of FNF 2021</h2>
+    <h2 class="text-center">Milestones of FNF 2022</h2>
     <div class="container mt-5 mb-0">
       <div class="row text-center">
         <div class="col">

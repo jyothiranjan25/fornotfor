@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>FNF 2021</title>
+  <title>FNF 2022</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -111,7 +111,7 @@
       <div class="row">
         <div class="col-md-8">
           <ul class="list-inline custom-breadcrumb">
-            <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="#">FNF 2021</a></li>
+            <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="#">FNF 2022</a></li>
             <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
           </ul>
 
@@ -126,7 +126,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h2 class="section-title">FNF 2021</h2>
+          <h2 class="section-title">FNF 2022</h2>
           <p>We had 230 students from 10 countries and 162 schools with prestigious international schools including Delhi Private School, Dubai, Dhaka, and Doha; Singapore Intercultural School, Indonesia; and St. Josephs Abu Dhabi.</p>
 
           <p>75 eminent judges including Lawyers, Debate Winners, Principals, Professors, Toastmasters followed defined judging parameters and gave individual feedback to each participant. Mr. Pradeep Gooptu, Founder of the Calcutta Debating Circle and Ex-Editor of Business Standard, and Ms. Priyanka Srivastava, Senior Editor, Education Times were the judges of the Final Rounds.</p>
@@ -144,7 +144,7 @@
   <!-- /about -->
   <!-- Highlights -->
   <section class="fnp22 bg-gray">
-    <h2 class="text-center">Milestones of FNF 2021</h2>
+    <h2 class="text-center">Milestones of FNF 2022</h2>
     <div class="container mt-5 mb-0">
       <div class="row text-center">
         <div class="col">

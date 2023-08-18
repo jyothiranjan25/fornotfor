@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Registeration for AURA 2021</title>
+	<title>Registeration for AURA 2022</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta content="" name="description">
 	<meta content="" name="keywords">
@@ -11,7 +11,7 @@
 
 	<meta charset="UTF-8">
 	<meta name="description" content=" Revamp. Recreate. Remould , Aura is the locus of human social, cultural and intellectual development which solicits the artistry, expressiveness and ingenuity from a divergent band of students with a pupose of instilling tolerance and respect for contrasting ethnicities and brainpower. ">
-	<meta name="keywords" content="aura,registration ,  ifim, vijaybhoomi , for not for , colleges , electronic city , ifim 2021 events , aura rinovamento , Aura 2021 , aurarinnovamento2021@gmail.com,  Ignite film fest , managerial events , solo dance, digital events , beat boxing , literary events , best manager , instagram reels contest ">
+	<meta name="keywords" content="aura,registration ,  ifim, vijaybhoomi , for not for , colleges , electronic city , ifim 2022 events , aura rinovamento , Aura 2022 , aurarinnovamento2022@gmail.com,  Ignite film fest , managerial events , solo dance, digital events , beat boxing , literary events , best manager , instagram reels contest ">
 	<meta name="author" content="kunal Sahu">
 
 
@@ -87,7 +87,7 @@
 					Whats my transaction id?</a> -->
 				<div class="checkbox">
 					<label>
-						<input type="checkbox">I accept the <a href="assets/documents/termsandcondition.docx" target="_blank">terms & conditions</a> of AURA 2021
+						<input type="checkbox">I accept the <a href="assets/documents/termsandcondition.docx" target="_blank">terms & conditions</a> of AURA 2022
 						<span class="checkmark"></span>
 					</label>
 				</div>
@@ -98,7 +98,7 @@
 						For any payment related related queries <br>Contact : Akshat Verma :- 7000844682 </h4>
 				</div>
 				<div class="copyright" style="text-align: center;">
-					&copy; Copyright <strong>Aura 2021</strong>
+					&copy; Copyright <strong>Aura 2022</strong>
 				</div>
 			</form>
 		</div>

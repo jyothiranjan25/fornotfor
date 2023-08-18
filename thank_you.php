@@ -18,7 +18,7 @@ error_reporting(0);
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FNF 2021</title>
+    <title>FNF 2023</title>
     <link href="kanyathon-logo.png" rel="shortcut icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
