@@ -170,7 +170,7 @@
 							<li class="nav-item schedule2">
 								<a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday">
 									<div class="item-text">
-										<h4>Sunday – Quarter, Semi Final</h4>
+										<h4>Sunday – Quarter, Semi Final - Offline</h4>
 										<h5>1st October, 2023</h5>
 									</div>
 								</a>
@@ -178,7 +178,7 @@
 							<li class="nav-item schedule2">
 								<a class="nav-link" id="thursday-tab" data-toggle="tab" href="#thursday" role="tab" aria-controls="thursday">
 									<div class="item-text">
-										<h4>Monday - Final</h4>
+										<h4>Monday - Final - Offline</h4>
 										<h5>2nd October, 2023</h5>
 									</div>
 								</a>
@@ -223,7 +223,7 @@
 									<div id="collapseOne1" class="collapse show" aria-labelledby="headingOne1" data-parent="#accordion2">
 										<div id="tuesday" class="card-body">
 											<ul>
-												<li><span> <i class="fa fa-star"></i></span>16 teams will be qualified for the Quarter Final Round</li>
+												<li><span> <i class="fa fa-star"></i></span>16 teams will qualify for the Quarter Final Round</li>
 												<li><span> <i class="fa fa-star"></i></span>The rounds will be held at Vijaybhoomi Campus (Karjat)</li>
 											</ul>
 										</div>
@@ -247,7 +247,7 @@
 									<div id="collapseOne3" class="collapse show" aria-labelledby="headingOne3" data-parent="#accordion3">
 										<div id="friday" class="card-body">
 											<ul>
-												<li><span> <i class="fa fa-star"></i></span>8 teams will be qualified for the Semi Final Round</li>
+												<li><span> <i class="fa fa-star"></i></span>8 teams will qualify for the Semi Final Round</li>
 												<li><span> <i class="fa fa-star"></i></span>The rounds will be held at Vijaybhoomi Campus (Karjat)</li>
 											</ul>
 										</div>
@@ -262,7 +262,7 @@
 									<div id="collapseOne4" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion4">
 										<div id="sunday" class="card-body">
 											<ul>
-												<li><span> <i class="fa fa-star"></i></span>4 teams will be qualified for the Final Round</li>
+												<li><span> <i class="fa fa-star"></i></span>4 teams will qualify for the Final Round</li>
 												<li><span> <i class="fa fa-star"></i></span>The rounds will be held at Vijaybhoomi Campus (Karjat)</li>
 											</ul>
 										</div>
@@ -295,44 +295,6 @@
 		</div>
 	</section>
 	<!-- Schedule Section End -->
-	<!-- Physical Rounds Start -->
-	<!-- <section id="schedules" class="schedule section-padding">
-		<div class="container">
-			<div class="row wow fadeInUp">
-				<div class="col-md-12 text-center">
-					<h2 class="section-title wow fadeInUp">Physical Rounds at Leadership Retreat at Vijaybhoomi University Campus</h2>
-				</div>
-			</div>
-			<div class="row wow fadeInUp mx-auto">
-				<div class="col-md-3"></div>
-				<div class="col-md-6">
-					<div class="table-responsive">
-						<table class="table table-bordered">
-							<tbody>
-								<tr>
-									<td width="75%"> Pre -Quarters </td>
-									<td width="25%"> 32 teams </td>
-								</tr>
-								<tr>
-									<td> Quarters </td>
-									<td> 16 teams </td>
-								</tr>
-								<tr>
-									<td> Semi Final </td>
-									<td> 8 teams </td>
-								</tr>
-								<tr>
-									<td> Final </td>
-									<td> 4 teams </td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<!-- Physical Rounds End -->
 	<!-- description section -->
 	<section class="py-4 py-lg-5 placements" id="Placements">
 		<div class="container">

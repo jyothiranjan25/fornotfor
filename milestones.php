@@ -28,12 +28,12 @@
 					<p class="count-text ">Happy Participants</p>
 				</div>
 			</div>
-			<div class="col">
+			<!-- <div class="col">
 				<div class="counter1"> <i class="fa fa-balance-scale fa-5x" aria-hidden="true"></i>
 					<h2 class="timer count-title1 count-number" data-to="75" data-speed="7000"></h2>
 					<p class="count-text ">Eminent Judges </p>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>

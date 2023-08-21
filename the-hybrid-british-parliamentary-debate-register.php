@@ -50,7 +50,7 @@ $medium = $_GET['medium'];
 								<div class="form-row">
 									<div class="form-holder form-group">
 										<fieldset>
-											<legend>Location<sup style="color:red;">*</sup></legend>
+											<legend>Country<sup style="color:red;">*</sup></legend>
 											<input type="text" class="form-control" id="state" name="state" placeholder="Location">
 
 											<!--- India states -->
@@ -871,7 +871,7 @@ $medium = $_GET['medium'];
 								<div class="form-row">
 									<div class="form-holder form-group">
 										<fieldset>
-											<legend>Name of the Accompanying Teacher Coordinator<sup style="color:red;">*</sup></legend>
+											<legend>Name of the Teacher / Coordinator<sup style="color:red;">*</sup></legend>
 											<input type="text" class="form-control" id="fname" name="teacher" placeholder="Name of the Teacher">
 										</fieldset>
 									</div>
@@ -914,7 +914,11 @@ $medium = $_GET['medium'];
 								</div>
 								<div class="form-row col-12">
 									<div class="form-holder form-group">
-										<legend><i>Accommodation will be provided by FNF team.</i> </legend>
+										<legend>
+											<i>Accommodation will be provided by FNF team.</i><br>
+											<i>Max 2 teams per school/branch can register.</i>
+
+										</legend>
 									</div>
 								</div>
 								<div class="form-row justify-content-center">

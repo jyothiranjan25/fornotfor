@@ -158,11 +158,11 @@ $medium = $_GET['medium'];
 					<div class="container reg_form">
 						<div class="row hero-slider-item">
 							<div class="col-md-12">
-								<h1 class="text-white">Register Now</h1>
+								<h1 class="text-white">Hybrid British Parliamentary Debate</h1>
 							</div>
 							<div class="col-md-12">
 								<!-- <a href="register_closed.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Hybrid British Parliamentary Debate</a><br><br> -->
-								<a href="the-hybrid-british-parliamentary-debate-register.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Hybrid British Parliamentary Debate</a><br><br>
+								<a href="the-hybrid-british-parliamentary-debate-register.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now</a><br><br>
 								<!-- <a href="the-hybrid-british-parliamentary-debate-register.php" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7" tabindex="-1" style="opacity: 0; animation-delay: 5s; animation-duration: 0.3s;">Hybrid British Parliamentary Debate</a></div> -->
 								<div class="col-md-12">
 									<!-- <a href="the-international-virtual-debate-register.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">International Virtual Debate</a> -->
@@ -183,7 +183,7 @@ $medium = $_GET['medium'];
 
 				<div class="col-lg-6 col-sm-12">
 					<div class="banner-temp">
-						<a href="https://vijaybhoomi.edu.in/fornotfor/" target="_blank"><img class="img-fluid w-100 shadow-sharp poster" src="images/fnf-poster-2022.jpg" alt="banner-feature"></a>
+						<a href="https://vijaybhoomi.edu.in/fornotfor/" target="_blank"><img class="img-fluid w-100 shadow-sharp poster" src="images/fnf-poster-2023.jpg" alt="banner-feature"></a>
 					</div>
 				</div>
 
@@ -203,7 +203,7 @@ $medium = $_GET['medium'];
 								<li>The Hybrid British Parliamentary Debate will be in the British Parliamentary Debate format</li>
 								<li><i>Preliminary Rounds</i> will be held <b>virtually</b> on <b>9<sup>th</sup> and 10<sup>th</sup> September</b> where 32 teams will qualify to the Pre- Quarter round.</li>
 								<li>32 teams that qualify for the <i>Pre-Quarter Finals</i> will be travelling to the Vijaybhoomi Campus (Karjat, Maharashtra) to battle it out <b>offline</b> at the FNF Leadership Retreat from <b>30<sup>th</sup> September to 2<sup>nd</sup> October</b>.</li>
-								<li>Students of Standard 9, 10, 11 and 12 from any school in India can participate. They have to be accompanied by a teacher.</li>
+								<li>Students of Standard 9, 10, 11 and 12 from any school in India can participate. They can be accompanied by a teacher.</li>
 								<li>Accommodation will be provided by FNF team.</li>
 							</ul>
 							<p class="text-center"><a href="hybrid-british-parliamentary-debate.php" class="card-link">Read More</a></p>
@@ -221,7 +221,6 @@ $medium = $_GET['medium'];
 							</div>
 							<ul class="objectives">
 								<li>FNF Pre-Quarter, Quarter, Semi-final and Final rounds</li>
-								<li>Psychometric evaluation with career counselling by an industry expert</li>
 								<li>Leadership skills with Outbound Teamwork and Team bonding games and activities sessions by an expert</li>
 								<li>Workshops on Design, Data Science, Music, Business, Entrepreneurship and Law</li>
 								<li>Trek and sports activities</li>
@@ -262,7 +261,7 @@ $medium = $_GET['medium'];
 							</div>
 							<ul class="objectives">
 								<li>For-Not-For is not only about debating. To make the anticipation easier and keep the participants pumped up in the build-up to the Competition, the <i>Organising Committee</i> of FNF has prepared a set of fun Activities, Contests and Events in the form of a Pre-event Engagement Programme that we call “<i><b>Initium</b></i>”. </li>
-								<li>All registered participants are encouraged to take part in these activities virtually and we provided exciting prizes to the winners.</li>
+								<li>All registered participants are encouraged to take part in these activities virtually and we provide exciting prizes to the winners.</li>
 								<li><i>Initium</i> consisted of fun activities, and it consisted of games such as Motion Contest, Caption Contest, and Meme Contest, Live Game Session.</li>
 								<li><i>Initium</i> 2023 is going to be bigger and better as we have a lot more exciting activities and workshops lined up for you. </li>
 							</ul>
@@ -303,14 +302,13 @@ $medium = $_GET['medium'];
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7 col-sm-7">
-					<div class="bg-white" style="box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
-    padding: 25px">
+					<div class="bg-white" style="box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%); padding: 25px">
 						<h2 class="section-title">FOR NOT FOR 2023</h2>
 						<!--	<h3 class="section-title"> 2<sup>nd</sup> Oct 2022</h3> -->
 						<p>FNF 2023 will be a Hybrid British Parliamentary style debate to be held between <i>9<sup>th</sup> September and 2<sup>nd</sup> October</i> with a <i>Virtual Preliminary</i> round and the <i>Final Rounds</i> as a part of an <i>Offline Leadership Retreat</i> at our scenic Vijaybhoomi campus in Karjat (Accommodation will be provided by FNF team). FNF 2023 brings to you debating and a lot more. Skills to make you a leader of the 21st Century, a leader with strong persuasive skills, adept at critical thinking, innovation, keen sense of creativity and out of the box views. FNF 2023 will build these skills through Initium, the skill building series, the Virtual Preliminary Debate round and an Offline Leadership Retreat including FNF Rounds at our picturesque Vijaybhoomi campus in Karjat, Maharashtra.</p>
 						<p>FNF 2023 debating rounds will follow the <b>British Parliamentary Style Debate</b>. This style of debating is one of the more popular forms, based on debates in the British Parliament. Much like in the House of Commons, the debate is split into two opposing sides: the proposition (or government), and the opposition. Each side is then further divided into ‘opening’ and ‘closing’ teams, all four of which have two speakers each. These are named after their equivalent positions in the British Parliament. Coupled with the rounds of the debate, participants will be given the unprecedented opportunity to attend the <b>Leadership Retreat</b> at VBU. Participants will be able to experience many activities ranging from self-discovery and career counselling to workshops on specialized domains like entrepreneurship, design, music to an awe-inducing trek of the Karjat hills, drone pilot training workshop, bonfire, and much more.</p>
 						<!--	<p>Tucked in between the majestic valleys of Karjat, VijayBhoomi University is the perfect location to grow one’s life skills gearing them up for future endeavours. For not for 2023, aims to offer more than just a parliamentary debate competition. Coupled with the intense final rounds of the debate, participants will be given the unprecedented opportunity to attend the <b>Leadership Retreat</b> at VBU. Participants will be able to experience many activities ranging from psychometric tests to an awe-inducing trek of the Karjat hills. Each event adds its own life skill as a valued outcome. </p>
-		<p>Never before seen in an international parliamentary debate competition of its size, For Not For 2023’s leadership retreat is sure to ease the competitive and tense environment, transitioning into one of fun and learning. The leadership retreat takes VBU’s best offerings and invites all those qualifying participants for an exciting and educative time at the VijayBhoomi University Campus. </p> -->
+						<p>Never before seen in an international parliamentary debate competition of its size, For Not For 2023’s leadership retreat is sure to ease the competitive and tense environment, transitioning into one of fun and learning. The leadership retreat takes VBU’s best offerings and invites all those qualifying participants for an exciting and educative time at the VijayBhoomi University Campus. </p> -->
 						<p class="mb-0"> <a href="leadership-retreat.php" class="card-link">Learn More</a>
 					</div>
 				</div>
@@ -325,7 +323,7 @@ $medium = $_GET['medium'];
 	<!-- about us -->
 	<section class="section calendar">
 		<div class="container-fluid">
-			<h2 class="text-center mb-5 test1">Calendar of Activities – Initium 2023</h2>
+			<h2 class="text-center mb-5 test1">Calendar of Activities – Initium 2022</h2>
 			<div class="row">
 				<div class="col-md-6">
 					<div class="calendar-one">
@@ -358,7 +356,30 @@ $medium = $_GET['medium'];
 	</section>
 	<section class="section">
 		<div class="container">
-			<h2 class="text-center mb-5 test1">Testimonials</h2>
+			<h2 class="text-center mb-5 test1">2022 - Testimonials</h2>
+			<div class="row">
+				<div class="col-md-6 mb-5">
+					<a href="#" data-toggle="modal" data-target="#FNFTestimonials2022-1"><img class="img-fluid w-100" style="opacity: 0.9;" src="images/FNFTestimonials2022 - 01.jpg">
+						<p class="btn w-100 click">Click here</p>
+					</a>
+				</div>
+				<div class="col-md-6 mb-5"><a href="#" data-toggle="modal" data-target="#FNFTestimonials2022-2"><img class="img-fluid w-100" style="opacity: 0.9;" src="images/FNFTestimonials2022 - 02.jpg">
+						<p class="btn w-100 click">Click here</p>
+					</a></div>
+
+				<div class="col-md-6"><a href="#" data-toggle="modal" data-target="#FNFTestimonials2022-3"><img class="img-fluid w-100" style="opacity: 0.9;" src="images/FNFTestimonials2022 - 03.jpg" alt="about image">
+						<p class="btn w-100 click">Click here</p>
+					</a></div>
+				<div class="col-md-6">
+					<a href="#" data-toggle="modal" data-target="#FNFTestimonials2022-4"><img class="img-fluid w-100" style="opacity: 0.9;" src="images/FNFTestimonials2022 - 04.jpg" alt="about image">
+						<p class="btn w-100 click">Click here</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="container">
+			<h2 class="text-center mb-5 test1">2021 - Testimonials</h2>
 			<div class="row">
 				<div class="col-md-6 mb-5">
 					<a href="#" data-toggle="modal" data-target="#judge1"><img class="img-fluid w-100" style="opacity: 0.9;" src="images/judge-01.jpg">
@@ -377,10 +398,7 @@ $medium = $_GET['medium'];
 						<p class="btn w-100 click">Click here</p>
 					</a>
 				</div>
-
-
 			</div>
-
 		</div>
 	</section>
 
@@ -390,7 +408,7 @@ $medium = $_GET['medium'];
 
 	<!-- Voice -->
 	<section class="fnp22 ">
-		<h2 class="text-center">The Voice of 2022</h5>
+		<h2 class="text-center">The Voice of 2021</h5>
 
 			<div class="container my-5">
 

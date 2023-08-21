@@ -127,11 +127,11 @@
       <div class="row">
         <div class="col-12">
           <h2 class="section-title">FNF 2022</h2>
-          <p>We had 230 students from 10 countries and 162 schools with prestigious international schools including Delhi Private School, Dubai, Dhaka, and Doha; Singapore Intercultural School, Indonesia; and St. Josephs Abu Dhabi.</p>
+          <p>The competition grew in 2022 in terms of scale. We had a competition in a hybrid model with 110 students from 10 countries. The preliminaries were virtual but the pre quarters, quarters, semi and finals were at the beautiful campus of Vijaybhoomi University at Karjat. 64 students experienced a Leadership Retreat for three days and powered up their skills in innovation, entrepreneurship, music, art and also took part in outdoor events like sports and trekking. Eminent judges including Lawyers, Debate Winners, Journalists and Content writers followed defined judging parameters and gave individual feedback to every participant.</p>
 
-          <p>75 eminent judges including Lawyers, Debate Winners, Principals, Professors, Toastmasters followed defined judging parameters and gave individual feedback to each participant. Mr. Pradeep Gooptu, Founder of the Calcutta Debating Circle and Ex-Editor of Business Standard, and Ms. Priyanka Srivastava, Senior Editor, Education Times were the judges of the Final Rounds.</p>
+          <p>Topics ranged from the Future and Ethicality of Sustainable Eating, Everchanging Society, Nihilism to Governmental Policy, Individualism and Philosophical Choice.</p>
 
-          <p>Topics ranged from paternity leave to the commercialization of surrogacy, the glorification of martyrdom, and whether the WTO should grant a Patent Waiver for Covid -19 Vaccines. </p>
+          <!-- <p>Topics ranged from paternity leave to the commercialization of surrogacy, the glorification of martyrdom, and whether the WTO should grant a Patent Waiver for Covid -19 Vaccines. </p> -->
 
         </div>
         <div class="col-md-4"><iframe width="100%" height="315" src="https://www.youtube.com/embed/jVdxxIGhmu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
