@@ -70,7 +70,7 @@
 									<div class="form-row">
 										<div class="form-holder form-group">
 											<fieldset>
-												<legend>Amount to be paid<sup style="color:red;">*</sup></legend>
+												<legend>Amount to be paid including GST<sup style="color:red;">*</sup></legend>
 												<input type="number" name="amount" class="form-control" id="amount" aria-describedby="emailHelp" value="<?php echo $amountz ?>" readonly>
 											</fieldset>
 										</div>
