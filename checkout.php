@@ -67,19 +67,23 @@
 											</fieldset>
 										</div>
 									</div>
-									<div class="form-row">
+									<!-- <div class="form-row">
 										<div class="form-holder form-group">
 											<fieldset>
 												<legend>Amount to be paid including GST<sup style="color:red;">*</sup></legend>
 												<input type="number" name="amount" class="form-control" id="amount" aria-describedby="emailHelp" value="<?php echo $amountz ?>" readonly>
 											</fieldset>
 										</div>
+									</div> -->
+									<div class="form-row col-12">
+										<div class="form-holder form-group">
+											<legend>
+												<h3 style="text-align: right; color:black;">Registration Amount: <?php echo $amountR ?></h3>
+												<h3 style="text-align: right; color:black;">GST Amount (18%): <?php echo $gstAmount ?></h3>
+												<h3 style="text-align: right; color:black;">Amount to be paid: <?php echo $amountz ?></h3>
+											</legend>
+										</div>
 									</div>
-									<!-- <div class="form-row col-12">
-									<div class="form-holder form-group">
-										<legend><i>Accommodation will be provided by FNF team.</i> </legend>
-									</div>
-								</div> -->
 									<div class="form-row justify-content-center">
 										<div class="form-holder form-group"><button class="button" id="rzp-button1">Pay Now</button></div>
 									</div>

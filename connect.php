@@ -19,12 +19,12 @@ require 'phpmailer/src/SMTP.php';
 $mail = new PHPMailer(true);
 
 // default amount
-$amount = 1000;
+$amountR = 1000;
 $gstPercentage = 18;
 // Calculate GST amount
-$gstAmount = ($amount * $gstPercentage) / 100;
+$gstAmount = ($amountR * $gstPercentage) / 100;
 // Calculate total amount including GST
-$amountz = $amount + $gstAmount;
+$amountz = $amountR + $gstAmount;
 
 
 if (isset($_POST['submithybridReg'])) {
