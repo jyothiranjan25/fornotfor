@@ -366,15 +366,17 @@ $medium = $_GET['medium'];
 				<div class="col-md-6 mb-5"><a href="#" data-toggle="modal" data-target="#FNFTestimonials2022-2"><img class="img-fluid w-100" style="opacity: 0.9;" src="images/FNFTestimonials2022 - 02.jpg">
 						<p class="btn w-100 click">Click here</p>
 					</a></div>
-
-				<div class="col-md-6"><a href="#" data-toggle="modal" data-target="#FNFTestimonials2022-3"><img class="img-fluid w-100" style="opacity: 0.9;" src="images/FNFTestimonials2022 - 03.jpg" alt="about image">
-						<p class="btn w-100 click">Click here</p>
-					</a></div>
 				<div class="col-md-6">
-					<a href="#" data-toggle="modal" data-target="#FNFTestimonials2022-4"><img class="img-fluid w-100" style="opacity: 0.9;" src="images/FNFTestimonials2022 - 04.jpg" alt="about image">
+					<a href="#" data-toggle="modal" data-target="#FNFTestimonials2022-3"><img class="img-fluid w-100" style="opacity: 0.9;" src="images/FNFTestimonials2022 - 04.jpg" alt="about image">
 						<p class="btn w-100 click">Click here</p>
 					</a>
 				</div>
+				<div class="col-md-6">
+					<a href="#" data-toggle="modal" data-target="#FNFTestimonials2022-4"><img class="img-fluid w-100" style="opacity: 0.9;" src="images/FNFTestimonials2022 - 03.jpg" alt="about image">
+						<p class="btn w-100 click">Click here</p>
+					</a>
+				</div>
+
 			</div>
 		</div>
 		<br>
@@ -584,16 +586,12 @@ $medium = $_GET['medium'];
 									</div>
 								</div>
 							</div>
-
 						</div>
 						<!--/ slide-->
 					</div>
 					<!--/.Slides-->
-
 				</div>
 				<!--/.Carousel Wrapper-->
-
-
 			</div>
 
 	</section>
@@ -601,22 +599,22 @@ $medium = $_GET['medium'];
 
 	<!-- Highlights -->
 	<section class="fnp22 bg-gray">
-		<h2 class="text-center">Highlights</h5>
+		<h2 class="text-center">Highlights of 2022</h5>
 
 			<div class="container my-5">
 
 				<!--Carousel Wrapper-->
-				<div id="multi-item-example3" class="carousel slide carousel-multi-item" data-ride="carousel">
+				<!-- <div id="multi-item-example3" class="carousel slide carousel-multi-item" data-ride="carousel"> -->
 
-					<!--Controls-->
-					<div class="controls-top">
+				<!--Controls-->
+				<!-- <div class="controls-top">
 						<a class="btn-floating waves-effect waves-light leftarr" href="#multi-item-example3" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
 						<a class="btn-floating waves-effect waves-light rightarr" href="#multi-item-example3" data-slide="next"><i class="fa fa-chevron-right"></i></a>
-					</div>
-					<!--/.Controls-->
+					</div> -->
+				<!--/.Controls-->
 
-					<!--Indicators-->
-					<ol class="carousel-indicators">
+				<!--Indicators-->
+				<!-- <ol class="carousel-indicators">
 						<li data-target="#multi-item-example3" data-slide-to="0" class="active"></li>
 						<li data-target="#multi-item-example3" data-slide-to="1"></li>
 						<li data-target="#multi-item-example3" data-slide-to="2"></li>
@@ -631,14 +629,14 @@ $medium = $_GET['medium'];
 						<li data-target="#multi-item-example3" data-slide-to="11"></li>
 						<li data-target="#multi-item-example3" data-slide-to="12"></li>
 						<li data-target="#multi-item-example3" data-slide-to="13"></li>
-					</ol>
-					<!--/.Indicators-->
+					</ol> -->
+				<!--/.Indicators-->
 
-					<!--Slides-->
-					<div class="carousel-inner" role="listbox">
+				<!--Slides-->
+				<!-- <div class="carousel-inner" role="listbox"> -->
 
-						<!--First slide-->
-						<div class="carousel-item active">
+				<!--First slide-->
+				<!-- <div class="carousel-item active">
 							<div class="row">
 								<div class="col-md-12 mx-auto">
 									<img class="img-fluid ceremony" src="images/highlights/ceremony1.jpg" alt="Card image cap">
@@ -736,12 +734,95 @@ $medium = $_GET['medium'];
 								</div>
 							</div>
 						</div>
-					</div>
-					<!--/.Slides-->
-				</div>
+					</div> -->
+				<!--/.Slides-->
+				<!-- </div> -->
 				<!--/.Carousel Wrapper-->
+				<iframe width="100%" height="515" src="https://www.youtube.com/embed/oNDhzyHpoL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="padding-top:20px;padding-bottom:20px;"></iframe>
 			</div>
 	</section>
+	<!-- The Modal -->
+	<div class="modal" id="FNFTestimonials2022-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">Winner</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/7jx2D8_9cUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- The Modal -->
+	<!-- The Modal -->
+	<div class="modal" id="FNFTestimonials2022-2">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">1st runner up testimonial</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/Dc-V-690zaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- The Modal -->
+	<!-- The Modal -->
+	<div class="modal" id="FNFTestimonials2022-3">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">2nd runner up testimonial</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/3x3Aya_Xx5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- The Modal -->
+	<!-- The Modal -->
+	<div class="modal" id="FNFTestimonials2022-4">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title">3rd runner up testimonial</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<!-- Modal body -->
+				<div class="modal-body">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/tqNn0wAPFAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- The Modal -->
 	<!-- The Modal -->
 	<div class="modal" id="judge1">
 		<div class="modal-dialog">
