@@ -915,9 +915,9 @@ $medium = $_GET['medium'];
 								<div class="form-row col-12">
 									<div class="form-holder form-group">
 										<legend>
-											<i>Accommodation will be provided by FNF team.</i><br>
-											<i>Max 2 teams per school/branch can register.</i>
-
+											<i><span style="color: red;"> * </span>Accommodation will be provided by FNF team.</i><br>
+											<i><span style="color: red;"> * </span>Max 2 teams per school/branch can register.</i><br>
+											<i><span style="color: red;"> * </span>The name of the student will be printed on certificate</i>
 										</legend>
 									</div>
 								</div>
