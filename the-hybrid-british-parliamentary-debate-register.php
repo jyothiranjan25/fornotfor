@@ -909,7 +909,7 @@ $medium = $_GET['medium'];
 												</select>
 											</div>
 										</fieldset>
-										<input type="text" class="hidden-textbox" name="Other" id="Other" style="display:none;" height="auto">
+										<input type="text" class="hidden-textbox" name="travelother" id="Other" style="display:none;" height="auto">
 									</div>
 								</div>
 								<div class="form-row col-12">
@@ -1280,6 +1280,14 @@ $medium = $_GET['medium'];
 								}
 							}
 						},
+						// tother: {
+						// 	message: 'Reason is not valid',
+						// 	validators: {
+						// 		notEmpty: {
+						// 			message: 'Required *'
+						// 		}
+						// 	}
+						// },
 					}
 				}).on('success.form.bv', function(e) {
 					//$('#registerForm').bootstrapValidator('defaultSubmit');

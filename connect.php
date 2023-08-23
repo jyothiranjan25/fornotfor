@@ -76,6 +76,7 @@ if (isset($_POST['submithybridReg'])) {
 
 		$tname = $_POST['tname'];
 		$travel = $_POST['travel'];
+		$travelother = $_POST['travelother'];
 
 		$source = $_POST['source'];
 		$medium = $_POST['medium'];
@@ -89,7 +90,7 @@ if (isset($_POST['submithybridReg'])) {
 			$campaign = 'Direct';
 		}
 
-		$sql = "INSERT INTO `hybrid-registration` (`state`, city, pschool, branch, ofcemail, principalno, principalemail, student1, studentgrade1, studentemail1, studentphone, wphone, student2, studentgrade2, studentemail2, studentphone2, wphone2, teacher, teacheremail, teacherphone, twphone, tname, travel, status, createdon) VALUES ('$state', '$city', '$pschool', '$branch', '$ofcemail', '$principalno', '$principalemail', '$student1', '$studentgrade1', '$studentemail1', '$studentphone', '$wphone', '$student2', '$studentgrade2', '$studentemail2', '$studentphone2', '$wphone2', '$teacher', '$teacheremail', '$teacherphone', '$twphone', '$tname', '$travel', '1', '$createdon')";
+		$sql = "INSERT INTO `hybrid-registration` (`state`, city, pschool, branch, ofcemail, principalno, principalemail, student1, studentgrade1, studentemail1, studentphone, wphone, student2, studentgrade2, studentemail2, studentphone2, wphone2, teacher, teacheremail, teacherphone, twphone, tname, travel, travelother, status, createdon) VALUES ('$state', '$city', '$pschool', '$branch', '$ofcemail', '$principalno', '$principalemail', '$student1', '$studentgrade1', '$studentemail1', '$studentphone', '$wphone', '$student2', '$studentgrade2', '$studentemail2', '$studentphone2', '$wphone2', '$teacher', '$teacheremail', '$teacherphone', '$twphone', '$tname', '$travel', '$travelother', '1', '$createdon')";
 		$status = mysqli_query($connection, $sql);
 
 		if (!$status) {
