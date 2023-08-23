@@ -134,9 +134,9 @@ if (isset($_POST['submithybridReg'])) {
 			$data = [
 				"key"               => $keyId,
 				"amount"            => $amount,
-				"name"              => "fornotfor2023",
+				"name"              => "FOR-NOT-FOR 2023",
 				"description"       => "FOR-NOT-FOR",
-				"image"             => "https://ifim.edu.in/kanyathon/wp-content/uploads/2020/10/cropped-logo-1.png",
+				"image"             => "images/vulogo.PNG",
 				"prefill"           => [
 					"name"              => $teacher,
 					"email"             => $teacheremail,
