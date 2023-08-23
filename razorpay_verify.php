@@ -135,7 +135,7 @@ if ($success === true) {
 		                <img src="https://vijaybhoomi.edu.in/fornotfor/images/fornotfor1.png" width="170px">
 		            </td>
 		            <td width="50%" align="right">
-		                <img src="https://vijaybhoomi.edu.in/images/logomain.webp" width="210px">
+		                <img src="https://www.vijaybhoomi.edu.in/wp-content/uploads/2022/11/VU-Logo--2048x442.png" width="210px">
 		            </td>
 		        </tr>
 		        </tr>
