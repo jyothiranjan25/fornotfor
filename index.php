@@ -419,9 +419,9 @@ $medium = $_GET['medium'];
 
 					<!--Controls-->
 					<!-- <div class="controls-top">
-      <a class="btn-floating waves-effect waves-light" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-      <a class="btn-floating waves-effect waves-light" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
-    </div>  -->
+						<a class="btn-floating waves-effect waves-light" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+						<a class="btn-floating waves-effect waves-light" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+					</div> -->
 					<!--/.Controls-->
 
 					<!--Indicators-->
@@ -740,6 +740,21 @@ $medium = $_GET['medium'];
 				<!--/.Carousel Wrapper-->
 				<iframe width="100%" height="515" src="https://www.youtube.com/embed/oNDhzyHpoL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="padding-top:20px;padding-bottom:20px;"></iframe>
 			</div>
+	</section>
+
+	<section class="section">
+		<div class="container">
+			<!-- <h2 class="text-center mb-5 test1">2022 - Testimonials</h2> -->
+			<div class="row my-5">
+				<div class="col-md-6">
+					<div class="activity">
+						<h3 class="section-title">Youth 20</h3>
+						<p>Youth 20 (Y20) is an official consultation forum for youth from all G20 member countries to be able to dialogue with each other. Y20 encourages youth as future leaders to raise awareness of global issues, exchange ideas, argue, negotiate, and reach consensus. Under this umbrella ForNotFor Debate is proud to collaborate with Youth 20 to align the debate with the G20 agenda of this year.</p>
+					</div>
+				</div>
+				<div class=" my-5 col-md-6"><img src="images/youth20.jpg" class="img-fluid"><br><br></div>
+			</div>
+		</div>
 	</section>
 	<!-- The Modal -->
 	<div class="modal" id="FNFTestimonials2022-1">
