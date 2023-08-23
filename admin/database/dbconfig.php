@@ -33,6 +33,9 @@ if (!$connection) {
     ';
 }
 
-// Paymentgateway Keys
+// Paymentgateway Test Keys
 $keyId = 'rzp_test_EULNZlCUzblGDF';
 $keySecret = 'l3GEuaZoie9DcS7yhMBFqaZx';
+// Paymentgateway Live Keys
+// $keyId = 'rzp_live_QnTLcM3HY08bxP';
+// $keySecret = 'VzJoU5XBo960G1iunSa13Vjw';
