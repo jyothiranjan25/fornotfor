@@ -18,8 +18,14 @@ require 'phpmailer/src/SMTP.php';
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
-// default amount
-$amountR = 1000;
+//Early Bird End Date formate yyyy-mm-dd
+$EarlyBirdEndDate = "2023-08-31";
+if (time() > strtotime($EarlyBirdEndDate)) {
+	$amountR = 2000;
+} else {
+	// default amount
+	$amountR = 1000;
+}
 $gstPercentage = 18;
 // Calculate GST amount
 $gstAmount = ($amountR * $gstPercentage) / 100;

@@ -144,15 +144,18 @@ if ($success === true) {
 		<br>
 		Dear Team, <br><br>
 		Thank you for registering for the <span style="font-style: italic;font-weight:bold">FOR NOT FOR International Debate Competition 2023</span> from Vijaybhoomi University. <br><br>
-		We will be sending you all further information about the Competition, as well as your topic 24 hours before your Preliminary Round. If you do not receive an email by 16th September, 6 pm, please email/call us.<br><br>
+		We will be sending you all further information about the Competition, as well as your topic 24 hours before your Preliminary Round. If you do not receive an email by 8th September, 6 pm, please email/call us.<br><br>
 		Visit <a href="https://vijaybhoomi.edu.in/fornotfor/">https://vijaybhoomi.edu.in/fornotfor/</a> to understand the Format, Rules and the Process for the debate which can be found in the <span style="font-weight:bold">FOR NOT FOR Brochure.</span><br><br>
 		We also request you to join the Official Participants WhatsApp Group via this link: <a href="https://chat.whatsapp.com/GPOKg3vupCc7AylXIYtO6c">https://chat.whatsapp.com/GPOKg3vupCc7AylXIYtO6c</a><br><br>
 		For further information, please write to us at <a href="mailto:fornotfor@vijaybhoomi.edu.in">fornotfor@vijaybhoomi.edu.in.</a> We wish you the very best.<br><br>
 		Best Regards, <br>
 		Team <span style="font-style: italic;">FOR NOT FOR</span> <br>
 		<span style="font-weight:bold">Email:</span> <a href="mailto:fornotfor@vijaybhoomi.edu.in">fornotfor@vijaybhoomi.edu.in</a> <br>
-		<span style="font-weight:bold"><u>Student Coordinators for any queries:</u></span><br>
-		<span style="color:red;font-weight:bold">Yosha: +91 78924 56300 / Ben: +91 90721 55310 </span> <br>
+		<span style="font-weight:bold"><u>Contact Details of FNF Faculty Coordinating Team for any queries:</u></span><br>
+		<span style="color:red;font-weight:bold">Prof. Shalini Dutta: +91 97654 04312 / shalini.dutta@vijaybhoomi.edu.in </span> <br>
+		<span style="color:red;font-weight:bold">Prof. Tejas Bhatt: +91 96643 10283 / tejas.bhatt@vijaybhoomi.edu.in </span> <br>
+		<span style="color:red;font-weight:bold">Prof. Nitesh Kumar: +91 70209 78160 / nitesh.kumar@vijaybhoomi.edu.in </span> <br>
+		<span style="color:red;font-weight:bold">Prof. Binita Vartak: +91 98440 62703 / binita_vartak@jagsom.edu.in </span> <br>
 		';
 		$mail->Body = $message;
 

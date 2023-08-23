@@ -6,6 +6,9 @@ $source = $_GET['source'];
 $campaign = $_GET['campaign'];
 $medium = $_GET['medium'];
 
+//Registration End date formate yyyy-mm-dd
+$RegEndDate = "2023-09-07";
+
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
@@ -161,15 +164,16 @@ $medium = $_GET['medium'];
 								<h1 class="text-white">Hybrid British Parliamentary Debate</h1>
 							</div>
 							<div class="col-md-12">
-								<!-- <a href="register_closed.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Hybrid British Parliamentary Debate</a><br><br> -->
-								<a href="the-hybrid-british-parliamentary-debate-register.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now</a><br><br>
-								<!-- <a href="the-hybrid-british-parliamentary-debate-register.php" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7" tabindex="-1" style="opacity: 0; animation-delay: 5s; animation-duration: 0.3s;">Hybrid British Parliamentary Debate</a></div> -->
+								<?php if (time() > strtotime($RegEndDate)) {
+									echo '<a href="register_closed.php" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now</a><br><br>';
+								} else {
+									echo '<a href="the-hybrid-british-parliamentary-debate-register.php?source=' . $source . '&medium=' . $medium . '&campaign=' . $campaign . '" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now</a><br><br>';
+								}
+								?>
 								<div class="col-md-12">
 									<!-- <a href="the-international-virtual-debate-register.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">International Virtual Debate</a> -->
-									<!-- <a href="the-international-virtual-debate-register.php" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7" tabindex="-1" style="opacity: 0; animation-delay: 5s; animation-duration: 0.3s;">International Virtual Debate</a>-->
 								</div>
 							</div>
-							<!-- <a href="register_closed.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" target="_blank"><img src="images/bg_des.png" alt="" class="img-fluid"></a>  -->
 						</div>
 					</div>
 				</div>
