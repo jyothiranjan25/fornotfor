@@ -75,7 +75,8 @@ error_reporting(0);
               <th> Whatsapp Number </th>
               <th> Payment Status </th>
               <th> Select Travel </th>
-              <th colspan="2"> Action </th>
+              <th> Registration Date</th>
+              <th> Action </th>
 
             </tr>
           </thead>
@@ -117,7 +118,7 @@ error_reporting(0);
                   <td> <?php echo $row['twphone']; ?></td>
                   <td> <?php echo $row['payment_status']; ?></td>
                   <td> <?php echo $row['travel']; ?></td>
-
+                  <td> <?php echo $row['createdon']; ?></td>
                   <td>
                     <!-- <form action="hybird_form_edit.php" method="post">
                       <input type="hidden" name="edit_id" value=" <?php echo $row['SlNo']; ?>">

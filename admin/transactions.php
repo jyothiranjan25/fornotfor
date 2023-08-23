@@ -81,6 +81,7 @@ error_reporting(0);
               <th> Amount </th>
               <th> Order ID </th>
               <th> Payment Status </th>
+              <th> Payment Date </th>
 
             </tr>
           </thead>
@@ -120,6 +121,7 @@ error_reporting(0);
                   <td> <?php echo $row['amount']; ?></td>
                   <td> <?php echo $row['orderid']; ?></td>
                   <td> <?php echo $row['payment_status']; ?></td>
+                  <td> <?php echo $row['payment_date']; ?></td>
                 </tr>
             <?php
                 $i++;
