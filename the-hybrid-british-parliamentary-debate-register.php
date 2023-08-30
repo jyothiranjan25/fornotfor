@@ -1280,14 +1280,14 @@ $medium = $_GET['medium'];
 								}
 							}
 						},
-						// tother: {
-						// 	message: 'Reason is not valid',
-						// 	validators: {
-						// 		notEmpty: {
-						// 			message: 'Required *'
-						// 		}
-						// 	}
-						// },
+						tother: {
+							message: 'Reason is not valid',
+							validators: {
+								notEmpty: {
+									message: 'Required *'
+								}
+							}
+						},
 					}
 				}).on('success.form.bv', function(e) {
 					//$('#registerForm').bootstrapValidator('defaultSubmit');

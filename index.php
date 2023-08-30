@@ -164,16 +164,17 @@ $RegEndDate = "2023-09-07";
 								<h1 class="text-white">Hybrid British Parliamentary Debate</h1>
 							</div>
 							<div class="col-md-12">
-								<?php if (time() > strtotime($RegEndDate)) {
-									echo '<a href="register_closed.php" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now</a><br><br>';
-								} else {
-									echo '<a href="the-hybrid-british-parliamentary-debate-register.php?source=' . $source . '&medium=' . $medium . '&campaign=' . $campaign . '" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now</a><br><br>';
-								}
-								?>
-								<div class="col-md-12">
-									<!-- <a href="the-international-virtual-debate-register.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">International Virtual Debate</a> -->
-								</div>
+								<!-- <?php if (time() > strtotime($RegEndDate)) {
+											echo '<a href="register_closed.php" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now</a><br><br>';
+										} else {
+											echo '<a href="the-hybrid-british-parliamentary-debate-register.php?source=' . $source . '&medium=' . $medium . '&campaign=' . $campaign . '" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now</a><br><br>';
+										}
+										?> -->
+								<a href="register_hold.php" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now</a><br><br>
 							</div>
+							<!-- <div class="col-md-12">
+								<a href="the-international-virtual-debate-register.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">International Virtual Debate</a>
+							</div> -->
 						</div>
 					</div>
 				</div>

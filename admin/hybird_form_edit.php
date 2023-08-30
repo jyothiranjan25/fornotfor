@@ -196,15 +196,18 @@ if (mysqli_num_rows($query_run) > 0) {
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<label>Are you willing to travel to the Vijaybhoomi University campus in Karjat from the 22nd to the 25th of September, in case of qualifying to the pre-quarter-finals? </label>
-									<div id="select-style">
-										<select name="travel" class="form-control" id="travel">
-											<!-- <option disabled="" selected="<?php echo (!empty($row['travel']) ? $row['travel'] : ''); ?>"><?php echo (!empty($row['travel']) ? $row['travel'] : 'Select Travel'); ?></option> -->
-											<option value="Yes" <?php echo (($row['travel'] == 'Yes') ? 'selected' : ''); ?>>Yes</option>
-											<option value="No" <?php echo (($row['travel'] == 'No') ? 'selected' : ''); ?>>No</option>
-											<option value="Other" <?php echo (($row['travel'] == 'Other') ? 'selected' : ''); ?>>Other</option>
-										</select>
-									</div>
+									<fieldset>
+										<label>Are you willing to travel to the Vijaybhoomi University campus in Karjat from the 22nd to the 25th of September, in case of qualifying to the pre-quarter-finals? </label>
+										<div id="select-style">
+											<select name="travel" class="form-control" id="travel">
+												<!-- <option disabled="" selected="<?php echo (!empty($row['travel']) ? $row['travel'] : ''); ?>"><?php echo (!empty($row['travel']) ? $row['travel'] : 'Select Travel'); ?></option> -->
+												<option value="Yes" <?php echo (($row['travel'] == 'Yes') ? 'selected' : ''); ?>>Yes</option>
+												<option value="No" <?php echo (($row['travel'] == 'No') ? 'selected' : ''); ?>>No</option>
+												<option value="Other" <?php echo (($row['travel'] == 'Other') ? 'selected' : ''); ?>>Other</option>
+											</select>
+										</div>
+									</fieldset>
+									<input type="text" class="form-control" name="travelother" id="Other" style="display:none;" height="auto" value="<?php echo (!empty($row['travelother']) ? $row['travelother'] : ''); ?>">
 								</div>
 							</div>
 							<div class="col-md-12">
@@ -231,20 +234,25 @@ if (mysqli_num_rows($query_run) > 0) {
 </script>
 
 <script type="text/javascript">
-	$(document).ready(function()
-
-		{
-			$('[data-toggle="tooltip"]').tooltip();
-			$(document).on("click", ".edit", function() {
-				var input = $(this).parents("tr").find("input[type='text']");
-				input.each(function() {
-					$(this).removeAttr('disabled');
-				});
-				$(this).parents("tr").find(".add , .edit").toggle();
+	$(document).ready(function() {
+		$('#travel').change(function() {
+			if ($(this).val() == "Other") {
+				$('#Other').show();
+			} else {
+				$('#Other').hide();
+			}
+		});
+	});
+	$(document).ready(function() {
+		$('[data-toggle="tooltip"]').tooltip();
+		$(document).on("click", ".edit", function() {
+			var input = $(this).parents("tr").find("input[type='text']");
+			input.each(function() {
+				$(this).removeAttr('disabled');
 			});
-		}
-
-	);
+			$(this).parents("tr").find(".add , .edit").toggle();
+		});
+	});
 	$(document).ready(function() {
 		$('#hybridReg').bootstrapValidator({
 				message: 'This value is not valid',
@@ -336,11 +344,11 @@ if (mysqli_num_rows($query_run) > 0) {
 							notEmpty: {
 								message: 'Required *'
 							},
-							stringLength: {
-								min: 10,
-								max: 10,
-								message: 'Enter 10 digit mobile number'
-							},
+							// stringLength: {
+							// 	min: 10,
+							// 	max: 10,
+							// 	message: 'Enter 10 digit mobile number'
+							// },
 							regexp: {
 								regexp: /^[0-9]+$/,
 								message: 'Principal contact number can only consist of number'
@@ -394,11 +402,11 @@ if (mysqli_num_rows($query_run) > 0) {
 							notEmpty: {
 								message: 'Required *'
 							},
-							stringLength: {
-								min: 10,
-								max: 10,
-								message: 'Enter 10 digit mobile number'
-							},
+							// stringLength: {
+							// 	min: 10,
+							// 	max: 10,
+							// 	message: 'Enter 10 digit mobile number'
+							// },
 							regexp: {
 								regexp: /^[0-9]+$/,
 								message: 'Phone number can only consist of number'
@@ -411,11 +419,11 @@ if (mysqli_num_rows($query_run) > 0) {
 							notEmpty: {
 								message: 'Required *'
 							},
-							stringLength: {
-								min: 10,
-								max: 10,
-								message: 'Enter 10 digit mobile number'
-							},
+							// stringLength: {
+							// 	min: 10,
+							// 	max: 10,
+							// 	message: 'Enter 10 digit mobile number'
+							// },
 							regexp: {
 								regexp: /^[0-9]+$/,
 								message: 'Whatsapp number can only consist of number'
@@ -461,11 +469,11 @@ if (mysqli_num_rows($query_run) > 0) {
 							notEmpty: {
 								message: 'Required *'
 							},
-							stringLength: {
-								min: 10,
-								max: 10,
-								message: 'Enter 10 digit mobile number'
-							},
+							// stringLength: {
+							// 	min: 10,
+							// 	max: 10,
+							// 	message: 'Enter 10 digit mobile number'
+							// },
 							regexp: {
 								regexp: /^[0-9]+$/,
 								message: 'Phone number can only consist of number'
@@ -478,11 +486,11 @@ if (mysqli_num_rows($query_run) > 0) {
 							notEmpty: {
 								message: 'Required *'
 							},
-							stringLength: {
-								min: 10,
-								max: 10,
-								message: 'Enter 10 digit mobile number'
-							},
+							// stringLength: {
+							// 	min: 10,
+							// 	max: 10,
+							// 	message: 'Enter 10 digit mobile number'
+							// },
 							regexp: {
 								regexp: /^[0-9]+$/,
 								message: 'Whatsapp number can only consist of number'
@@ -520,11 +528,11 @@ if (mysqli_num_rows($query_run) > 0) {
 							notEmpty: {
 								message: 'Required *'
 							},
-							stringLength: {
-								min: 10,
-								max: 10,
-								message: 'Enter 10 digit mobile number'
-							},
+							// stringLength: {
+							// 	min: 10,
+							// 	max: 10,
+							// 	message: 'Enter 10 digit mobile number'
+							// },
 							regexp: {
 								regexp: /^[0-9]+$/,
 								message: 'Mobile number can only consist of number'
@@ -550,6 +558,14 @@ if (mysqli_num_rows($query_run) > 0) {
 					},
 					travel: {
 						message: 'Travel is not valid',
+						validators: {
+							notEmpty: {
+								message: 'Required *'
+							}
+						}
+					},
+					tother: {
+						message: 'Reason is not valid',
 						validators: {
 							notEmpty: {
 								message: 'Required *'
