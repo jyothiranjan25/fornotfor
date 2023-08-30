@@ -1,5 +1,5 @@
 <script>
-    setTimeout(nextpage, 6000);
+    setTimeout(nextpage, 10000);
 
     function nextpage() {
         window.location.href = "index.php";
@@ -46,9 +46,9 @@ error_reporting(0);
                 <div class="col-md-12 col-sm-12" style="margin-top: auto; margin-bottom: auto;">
                     <br><br>
                     <center>
-                        <img src="images/hold.gif" class="img-fluid"><br><br>
+                        <img src="images/hold.gif" class="img-fluid" style="width: 50%;"><br><br>
                         <div class="alert alert-success animate_animated animate_bounce">
-                            <div class="col-md-12 col-sm-12"><strong>Oops!! Registrations for For Not For 2023 are temporarily on hold.</strong></div>
+                            <div class="col-md-12 col-sm-12"><strong>FNF 23 getting bigger and better. We are proud to collaborate with Youth 20 to align the debate with the G20 agenda of this year. Details of the new format and new dates will be displayed soon.</strong></div>
                         </div>
                     </center>
 
