@@ -111,31 +111,67 @@
 	</section>
 	<!-- /page title -->
 	<!-- about -->
-	<!-- <section class="section pb-3">
+	<section class="section pb-3">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h2 class="section-title">The Hybrid British Parliamentary Debate</h2>
+					<h2 class="section-title">Rounds and Schedule</h2>
 					<ul class="objectives" style="padding-top:0px;">
-						<li>The Hybrid British Parliamentary Debate will be held in September 2023</li>
-						<li>British Parliamentary Debate format</li>
-						<li><i>Preliminary Rounds</i> will be held <b>virtually</b> on 4th September where 32 teams will qualify to the Pre- Quarter round.</li>
-						<li>32 teams that qualify for the <i>Pre-Quarter Finals</i> will be invited to the Vijaybhoomi Campus (Karjat, Maharashtra) to battle it out <b>offline</b> at the FNF Leadership Retreat from 22nd September to 25th September.</li>
-						<li>Students of Standard 11 and 12 from any school in India can participate. </li>
+						<li>FNF 2023 Schedule for Junior and Senior Competition Schedule</li>
 					</ul>
+					<div class="table-responsive">
+						<table class="table table-bordered transperant">
+							<tbody>
+								<tr>
+									<th> Round </th>
+									<th> Venue </th>
+									<th> Date </th>
+									<th> Teams </th>
+								</tr>
+								<tr>
+									<td> Preliminary </td>
+									<td> Virtual </td>
+									<td> 14<sup>th</sup>, 15<sup>th</sup> October </td>
+									<td> Based on registration </td>
+								</tr>
+								<tr>
+									<td> Pre - Quarter </td>
+									<td> Virtual </td>
+									<td> 21<sup>st</sup>, 22<sup>nd</sup> October </td>
+									<td> 32 teams </td>
+								</tr>
+								<tr>
+									<td> Quarter </td>
+									<td> Leadership Retreat - VU campus </td>
+									<td> 4<sup>th</sup> November </td>
+									<td> 16 teams </td>
+								</tr>
+								<tr>
+									<td> Semi </td>
+									<td> Leadership Retreat - VU campus </td>
+									<td> 4<sup>th</sup> November </td>
+									<td> 8 teams </td>
+								</tr>
+								<tr>
+									<td> Final </td>
+									<td> Leadership Retreat - VU campus </td>
+									<td> 5<sup>th</sup> November </td>
+									<td> 4 teams </td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section> -->
+	</section>
 	<!-- /about -->
 	<!-- Schedule Section Start -->
-	<section id="schedules" class="schedule section-padding">
+	<!-- <section id="schedules" class="schedule section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
 					<div class="section-title-header text-center">
 						<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Rounds and Schedule</h1>
-						<!-- <p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor</p> -->
 					</div>
 				</div>
 			</div>
@@ -159,14 +195,6 @@
 									</div>
 								</a>
 							</li>
-							<!-- <li class="nav-item">
-								<a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday">
-									<div class="item-text">
-										<h4>Friday</h4>
-										<h5>23rd September, 2023</h5>
-									</div>
-								</a>
-							</li> -->
 							<li class="nav-item schedule2">
 								<a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab" aria-controls="wednesday">
 									<div class="item-text">
@@ -204,9 +232,6 @@
 												<li><span> <i class="fa fa-star" style="color:#3d426b;"></i></span>
 													32 teams will be shortlisted</li>
 											</ul>
-											<!-- <p>India North, India South, India East, India West, International (5 rounds)</p>
-											<i class="fa fa-hand-o-right"></i>
-											<p> 16 will be shortlisted (8 from International and 8 from the Indian zones)</p> -->
 										</div>
 									</div>
 								</div>
@@ -231,11 +256,6 @@
 								</div>
 							</div>
 						</div>
-						<!--<div class="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab">
-							<div id="accordion3"> 
-							
-							</div>
-						</div>  -->
 						<div class="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab">
 							<div id="accordion4">
 								<div class="card">
@@ -293,7 +313,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- Schedule Section End -->
 	<!-- description section -->
 	<section class="py-4 py-lg-5 placements" id="Placements">

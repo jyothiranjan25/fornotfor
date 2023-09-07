@@ -7,11 +7,11 @@ $campaign = $_GET['campaign'];
 $medium = $_GET['medium'];
 
 //Registration End date formate yyyy-mm-dd
-$RegEndDate = "2023-09-07";
+$RegEndDate = "2023-09-30";
 
 ?>
 <!DOCTYPE html>
-<html lang="zxx">
+<html>
 
 <head>
 	<meta charset="utf-8">
@@ -115,7 +115,7 @@ $RegEndDate = "2023-09-07";
 						<div class="hero-slider-item">
 							<div class="row">
 								<div class="col-md-12">
-									<h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Want to have the most Influential Debate of all time? Battle it Out - 2v2 on the 9th of September 2023.</h1>
+									<h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Want to have the most Influential Debate of all time? Battle it Out - 2v2 between 14th October and 5th November.</h1>
 									<!-- <p class="text-muted mb-4" style="font-size: 22px;" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4"> For Not For 2022, the second virtual edition is to be held between 2nd October 2022 and 10th October. </p> <a href="register_closed.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register now</a>-->
 								</div>
 							</div>
@@ -124,7 +124,7 @@ $RegEndDate = "2023-09-07";
 						<div class="hero-slider-item">
 							<div class="row">
 								<div class="col-md-12">
-									<h1 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">The first-ever <!--International Virtual Debate and the first-ever--> Hybrid British Parliamentary Debate for High School students to be organized by a University in India.</h1><!-- <a href="register_closed.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Register now</a>-->
+									<h1 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">The first-ever Hybrid British Parliamentary Debate for for Junior and High School students to be organized by a University in India.</h1><!-- <a href="register_closed.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Register now</a>-->
 								</div>
 							</div>
 						</div>
@@ -133,7 +133,7 @@ $RegEndDate = "2023-09-07";
 							<div class="row">
 								<div class="col-md-12">
 									<h1 class="text-white" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">Join us at the Vijaybhoomi University campus to develop your skills with expert sessions and fun activities! For Not For 2023, is back and this time it is BIGGER and BETTER. </h1><!-- <a href="register_closed.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".7">Register now</a>-->
-									<h4 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Accommodation will be provided by FNF team.</h4>
+									<!-- <h4 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Accommodation will be provided by FNF team.</h4> -->
 								</div>
 							</div>
 						</div>
@@ -141,36 +141,28 @@ $RegEndDate = "2023-09-07";
 						<div class="hero-slider-item">
 							<div class="row">
 								<div class="col-md-12">
-									<h1 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Win up to <b>₹ 1.8 lakh</b> worth of Cash Prizes, Scholarship & Internship Offers, lot more. Earn yourselves an opportunity to be a part of our <b>Leadership Retreat Camp!</b></h1> <!--<a href="register_closed.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Register now</a>-->
-									<h4 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Accommodation will be provided by FNF team.</h4>
+									<h1 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Win up to <b>₹ 2.6 lakh</b> worth of Cash Prizes, Scholarship & Internship Offers, lot more. Earn yourselves an opportunity to be a part of our <b>Leadership Retreat Camp!</b></h1> <!--<a href="register_closed.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Register now</a>-->
+									<!-- <h4 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Accommodation will be provided by FNF team.</h4> -->
 								</div>
 							</div>
 						</div>
-						<!-- slider item -->
-						<!--<div class="hero-slider-item">
-								<div class="row">
-									<div class="col-md-12">
-										<h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Exclusive International Virtual Track for Students from schools outside India</h1>
-										<a href="register_closed.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register now</a> </div>
-								</div>
-							</div> -->
-						<!-- slider item -->
 					</div>
 				</div>
 				<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
 					<div class="container reg_form">
 						<div class="row hero-slider-item">
 							<div class="col-md-12">
-								<h1 class="text-white">Hybrid British Parliamentary Debate</h1>
+								<h3 class="text-white">Hybrid British Parliamentary Debate – Junior and Senior Competition</h3>
 							</div>
 							<div class="col-md-12">
-								<!-- <?php if (time() > strtotime($RegEndDate)) {
-											echo '<a href="register_closed.php" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now</a><br><br>';
-										} else {
-											echo '<a href="the-hybrid-british-parliamentary-debate-register.php?source=' . $source . '&medium=' . $medium . '&campaign=' . $campaign . '" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now</a><br><br>';
-										}
-										?> -->
-								<a href="register_hold.php" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now</a><br><br>
+								<?php if (time() > strtotime($RegEndDate)) {
+									echo '<a href="register_closed.php" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now</a><br><br>';
+								} else {
+									echo '<a href="the-hybrid-british-parliamentary-debate-register.php?type=Junior&source=' . $source . '&medium=' . $medium . '&campaign=' . $campaign . '" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now for Junior</a><br><br>';
+									echo '<a href="the-hybrid-british-parliamentary-debate-register.php?type=Senior&source=' . $source . '&medium=' . $medium . '&campaign=' . $campaign . '" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now for Senior</a><br><br>';
+								}
+								?>
+								<!-- <a href="register_hold.php" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Register Now</a><br><br> -->
 							</div>
 							<!-- <div class="col-md-12">
 								<a href="the-international-virtual-debate-register.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">International Virtual Debate</a>
@@ -200,59 +192,47 @@ $RegEndDate = "2023-09-07";
 								<div class="col-md-10">
 									<div class="fnfbox">
 										<h4 class="card-title mb-0">FNF 2023 - The Hybrid British Parliamentary Debate from
-											September 9<sup>th</sup> to October 2<sup>nd</sup></h4>
+											October 14<sup>th</sup> to November 5<sup>nd</sup></h4>
 									</div>
 								</div>
 							</div>
+							<br>
+							<li>FNF 2023 Junior Competition: For grade 9 and 10</li>
+							<li>FNF 2023 Senior Competition: For grade 11 and 12</li>
 							<ul class="objectives">
-								<li>The Hybrid British Parliamentary Debate will be in the British Parliamentary Debate format</li>
-								<li><i>Preliminary Rounds</i> will be held <b>virtually</b> on <b>9<sup>th</sup> and 10<sup>th</sup> September</b> where 32 teams will qualify to the Pre- Quarter round.</li>
-								<li>32 teams that qualify for the <i>Pre-Quarter Finals</i> will be travelling to the Vijaybhoomi Campus (Karjat, Maharashtra) to battle it out <b>offline</b> at the FNF Leadership Retreat from <b>30<sup>th</sup> September to 2<sup>nd</sup> October</b>.</li>
-								<li>Students of Standard 9, 10, 11 and 12 from any school in India can participate. They can be accompanied by a teacher.</li>
-								<li>Accommodation will be provided by FNF team.</li>
+								<li><i>Preliminary Rounds</i> for Junior and Senior Competitions will be held <b>virtually</b> on 14<sup>th</sup> and 15<sup>th</sup> October where 32 teams will qualify to the Pre- Quarter round.</li>
+								<li><i>Pre - Quarter</i> Round for Junior and Senior Competitions will be held <b>virtually</b> on 21<sup>st</sup> and 22<sup>nd</sup> October where 32 teams will qualify to the Quarter round.</li>
+								<li><i>16 teams</i> that qualify for the <i>Quarter Finals</i> for both Junior and Senior Competition will be travelling to the Vijaybhoomi Campus (Karjat, Maharashtra) to battle it out offline at the FNF Leadership Retreat on 4<sup>th</sup> and 5<sup>th</sup> November.</li>
+								<li>Junior and Senior Rounds will be held separately.</li>
+								<li>Junior and Senior Teams from the same school need to register separately.</li>
+								<li>Teams of 2 students need to register.</li>
+								<li>British Parliamentary Debate format for Junior and Senior competitions.</li>
 							</ul>
+							<p style="font-size:11px;">Teams participating in the Leadership Retreat rounds will need to organize their own accommodation and transport from the station / airport to and from. VU will be happy to help in getting accommodation at affordable rates close to the campus.</p>
 							<p class="text-center"><a href="hybrid-british-parliamentary-debate.php" class="card-link">Read More</a></p>
 						</div>
 					</div>
 					<div class="card retreat22">
-						<div class="card-block p-3 card-two">
+						<div class="card-block p-3">
 							<div class="row">
 								<div class="col-md-2"><i class="ti-gift mb-0 feature-icon"></i></div>
 								<div class="col-md-10">
 									<div class="fnfbox" id="fbx">
-										<h4 class="card-title mb-0">FNF - Leadership Retreat from 30<sup>th</sup> Sept to 2<sup>nd</sup> Oct</h4>
+										<h4 class="card-title mb-0">FNF - Leadership Retreat from 4<sup>th</sup> and 5<sup>th</sup> November</h4>
 									</div>
 								</div>
 							</div>
 							<ul class="objectives">
-								<li>FNF Pre-Quarter, Quarter, Semi-final and Final rounds</li>
-								<li>Leadership skills with Outbound Teamwork and Team bonding games and activities sessions by an expert</li>
+								<li>FNF Quarter, Semi-final and Final rounds</li>
 								<li>Workshops on Design, Data Science, Music, Business, Entrepreneurship and Law</li>
 								<li>Trek and sports activities</li>
-								<li>Fun sessions and campfire at night</li>
+								<li>Fun Networking sessions and campfire at night</li>
 								<li>Motivational talks by experts</li>
 							</ul>
 							<p class="text-center"> <a href="leadership-retreat.php" class="card-link">Read More</a></p>
 						</div>
 					</div>
 				</div>
-				<!--<div class="col-lg-4 col-sm-12">
-						<div class="card">
-							<div class="card-block p-3 card-three"> 
-								<div class="row">											
-									<div class="col-md-2"><i class="ti-blackboard  mb-0 feature-icon"></i></div>
-									<div class="col-md-10"><h4 class="card-title mb-0">FNF - Virtual International Debate</h4></div>
-								</div>
-								<ul class="objectives">
-									<li>To cater for the interests of debate enthusiasts from across the globe we bring to you, FNF 2023- “Virtual International Debate”.</li>
-									<li>The format of the virtual debate will be 1v1 (Lincoln- Douglas Format).</li>
-									<li>Students of Standard 11 and 12 from outside India can participate.</li>
-									<li>From each school, two students shall be eligible.</li>
-								</ul>
-								<p class="text-center"> <a href="international-virtual-debate.php" class="card-link">Read More</a> </p>
-							</div>
-						</div>
-					</div>-->
 				<div class="col-lg-6 col-sm-12">
 					<div class="card">
 						<div class="card-block p-3 card-four">
@@ -286,13 +266,11 @@ $RegEndDate = "2023-09-07";
 								</div>
 							</div>
 							<ul class="objectives">
-								<li>Winner Team – Rs. One Lakh+ Plaque and Certificate, Scholarship, Internship</li>
-								<li>Runner Up -     Rs. 50000 + Plaque and Certificate, Scholarship, Internship at VU</li>
-								<li>Third Place -     Rs. 20000 + Plaque and Certificate, Scholarship, Internship at VU</li>
-								<li>Fourth Place – Rs. 10000+ Plaque and Certificate, Scholarship, Internship at VU</li>
-								<li>Pre Quarter, Quarter, Semi, Final Round Finalists – Certificates, Scholarship, Internship at VU</li>
-								<li>All Participants – Participant Certificate, Online Career Counselling Session</li>
-
+								<li>1st prize - 1000$ / Rs. 85000 for Junior and Senior Competitions.</li>
+								<li>2nd prize - 500 $ / Rs. 45000 for Junior and Senior Competitions.</li>
+								<li>Prizes and Merit Certificates for 3rd and 4th place for both competitions.</li>
+								<li>Merit Certificates for Pre- Quarter, Quarter and Semi.</li>
+								<li>Participation Certificates to all.</li>
 							</ul>
 							<p class="text-center"> <a href="fnf-2022-prizes.php" class="card-link">Read More</a></p>
 						</div>
@@ -309,11 +287,15 @@ $RegEndDate = "2023-09-07";
 				<div class="col-lg-7 col-sm-7">
 					<div class="bg-white" style="box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%); padding: 25px">
 						<h2 class="section-title">FOR NOT FOR 2023</h2>
-						<!--	<h3 class="section-title"> 2<sup>nd</sup> Oct 2022</h3> -->
-						<p>FNF 2023 will be a Hybrid British Parliamentary style debate to be held between <i>9<sup>th</sup> September and 2<sup>nd</sup> October</i> with a <i>Virtual Preliminary</i> round and the <i>Final Rounds</i> as a part of an <i>Offline Leadership Retreat</i> at our scenic Vijaybhoomi campus in Karjat (Accommodation will be provided by FNF team). FNF 2023 brings to you debating and a lot more. Skills to make you a leader of the 21st Century, a leader with strong persuasive skills, adept at critical thinking, innovation, keen sense of creativity and out of the box views. FNF 2023 will build these skills through Initium, the skill building series, the Virtual Preliminary Debate round and an Offline Leadership Retreat including FNF Rounds at our picturesque Vijaybhoomi campus in Karjat, Maharashtra.</p>
-						<p>FNF 2023 debating rounds will follow the <b>British Parliamentary Style Debate</b>. This style of debating is one of the more popular forms, based on debates in the British Parliament. Much like in the House of Commons, the debate is split into two opposing sides: the proposition (or government), and the opposition. Each side is then further divided into ‘opening’ and ‘closing’ teams, all four of which have two speakers each. These are named after their equivalent positions in the British Parliament. Coupled with the rounds of the debate, participants will be given the unprecedented opportunity to attend the <b>Leadership Retreat</b> at VBU. Participants will be able to experience many activities ranging from self-discovery and career counselling to workshops on specialized domains like entrepreneurship, design, music to an awe-inducing trek of the Karjat hills, drone pilot training workshop, bonfire, and much more.</p>
-						<!--	<p>Tucked in between the majestic valleys of Karjat, VijayBhoomi University is the perfect location to grow one’s life skills gearing them up for future endeavours. For not for 2023, aims to offer more than just a parliamentary debate competition. Coupled with the intense final rounds of the debate, participants will be given the unprecedented opportunity to attend the <b>Leadership Retreat</b> at VBU. Participants will be able to experience many activities ranging from psychometric tests to an awe-inducing trek of the Karjat hills. Each event adds its own life skill as a valued outcome. </p>
-						<p>Never before seen in an international parliamentary debate competition of its size, For Not For 2023’s leadership retreat is sure to ease the competitive and tense environment, transitioning into one of fun and learning. The leadership retreat takes VBU’s best offerings and invites all those qualifying participants for an exciting and educative time at the VijayBhoomi University Campus. </p> -->
+						<p>FNF 2023 will have two competitions for different grades, Junior and Senior following the same format, which is a hybrid model in the British Parliamentary Debate format. The debate rounds will be between 14<sup>th</sup> October and 5<sup>th</sup> November with a Virtual Preliminary and Pre- Quarter round and the Quarters, Semi and Final Rounds on 4<sup>th</sup> and 5<sup>th</sup> November as a part of an Offline Leadership Retreat at our Vijaybhoomi campus in Karjat.</p>
+						<h3 class="section-title">British Parliamentary Debate Format</h3>
+						<p>FNF 2023 debating rounds will follow the British Parliamentary Style Debate. This style of debating is one of the more popular forms, based on debates in the British Parliament. It was first adopted by UK universities but is now popular in debating competitions around the world. Much like in the House of Commons, the debate is split into two opposing sides: the proposition (or government), and the opposition. Each side is then further divided into ‘opening’ and ‘closing’ teams, all four of which have two speakers. These are named after their equivalent positions in the British Parliament.</p>
+						<h3 class="section-title">Skill Building Workshops</h3>
+						<p>FNF 2023 brings to you debating and a lot more. Skills to make you a leader of the 21st Century, a leader with strong persuasive skills, adept at critical thinking, innovation, keen sense of creativity and out of the box views. FNF, as in the past, will help you build these vital skills in a variety of platforms.</p>
+						<!-- <h3 class="section-title">INITIUM</h3>
+						<p>FNF 2023 will build these skills through Initium, the virtual skill building series which will be conducted by experts before the Preliminaries. Participants will receive vital advice on how to conduct themselves as well as making arguments in sessions. You will also get a chance to get to know other participants through some fun sessions.</p> -->
+						<!-- <h3 class="section-title">LEADERSHIP RETREAT</h3>
+						<p>Tucked in between the majestic valleys of Karjat, VijayBhoomi University is the perfect location to grow one’s life skills, gearing them up for future endeavors. For Not For 2023, aims to offer more than just a parliamentary debate competition. Coupled with the intense final rounds of the debate, participants who qualify for the Quarters will be given the unprecedented opportunity to attend the Leadership Retreat at VU. Participants will be able to experience many activities ranging from a fun networking event to workshops on specialized domains like entrepreneurship, design, music, business to an awe-inducing trek of the Karjat hills. Each event adds its own life skill as a valued outcome.</p> -->
 						<p class="mb-0"> <a href="leadership-retreat.php" class="card-link">Learn More</a>
 					</div>
 				</div>
@@ -917,7 +899,6 @@ $RegEndDate = "2023-09-07";
 				<!-- Modal body -->
 				<div class="modal-body">
 					<!-- <p>Fiona Raj, runner-up, from Shri Shikshayatan School said, “Not only did this platform give the youth a voice, but it also allowed us to present our voices in a way that was acceptable to the rest of the world. The judges' opinions and pointers allowed us to learn our strengths and weaknesses, which will help us for the rest of our lives. Debate competitions such as ForNotFor allow us to apply our knowledge and skills in real life.” </p> -->
-
 					<iframe width="100%" height="315" src="https://www.youtube.com/embed/_89Yuf9NEgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 

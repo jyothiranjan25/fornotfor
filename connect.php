@@ -19,13 +19,15 @@ require 'phpmailer/src/SMTP.php';
 $mail = new PHPMailer(true);
 
 //Early Bird End Date formate yyyy-mm-dd
-$EarlyBirdEndDate = "2023-08-31";
-if (time() > strtotime($EarlyBirdEndDate)) {
-	$amountR = 2000;
-} else {
-	// default amount
-	$amountR = 1000;
-}
+// $EarlyBirdEndDate = "2023-08-31";
+// if (time() > strtotime($EarlyBirdEndDate)) {
+// 	$amountR = 2000;
+// } else {
+// 	// default amount
+// 	$amountR = 1000;
+// }
+
+$amountR = 1000;
 $gstPercentage = 18;
 // Calculate GST amount
 $gstAmount = ($amountR * $gstPercentage) / 100;
@@ -37,11 +39,6 @@ if (isset($_POST['submithybridReg'])) {
 
 	try {
 		$api = new Api($keyId, $keySecret);
-
-		// echo "<pre>";
-		// print_r($_POST);
-		// echo "</pre>"; 
-		// exit;
 
 		$state = $_POST['state'];
 		$city = $_POST['city'];
@@ -81,16 +78,22 @@ if (isset($_POST['submithybridReg'])) {
 		$source = $_POST['source'];
 		$medium = $_POST['medium'];
 		$campaign = $_POST['campaign'];
+		$event_type = $_POST['type'];
+
 		date_default_timezone_set('Asia/Kolkata');
 		$createdon = date('Y-m-d H:i:s');
-		if ($source == "") {
 
+		if ($source == "") {
 			$source = 'Direct';
 			$medium = 'Direct';
 			$campaign = 'Direct';
 		}
 
-		$sql = "INSERT INTO `hybrid-registration` (`state`, city, pschool, branch, ofcemail, principalno, principalemail, student1, studentgrade1, studentemail1, studentphone, wphone, student2, studentgrade2, studentemail2, studentphone2, wphone2, teacher, teacheremail, teacherphone, twphone, tname, travel, travelother, status, createdon) VALUES ('$state', '$city', '$pschool', '$branch', '$ofcemail', '$principalno', '$principalemail', '$student1', '$studentgrade1', '$studentemail1', '$studentphone', '$wphone', '$student2', '$studentgrade2', '$studentemail2', '$studentphone2', '$wphone2', '$teacher', '$teacheremail', '$teacherphone', '$twphone', '$tname', '$travel', '$travelother', '1', '$createdon')";
+		if (empty($tname)) {
+			$tname = "nill";
+		}
+
+		$sql = "INSERT INTO `hybrid-registration` (`state`, city, pschool, branch, ofcemail, principalno, principalemail, student1, studentgrade1, studentemail1, studentphone, wphone, student2, studentgrade2, studentemail2, studentphone2, wphone2, teacher, teacheremail, teacherphone, twphone, tname, travel, travelother, source, medium, campaign, event_type, status, createdon) VALUES ('$state', '$city', '$pschool', '$branch', '$ofcemail', '$principalno', '$principalemail', '$student1', '$studentgrade1', '$studentemail1', '$studentphone', '$wphone', '$student2', '$studentgrade2', '$studentemail2', '$studentphone2', '$wphone2', '$teacher', '$teacheremail', '$teacherphone', '$twphone', '$tname', '$travel', '$travelother', '$source', '$medium', '$campaign', '$event_type', '1', '$createdon')";
 		$status = mysqli_query($connection, $sql);
 
 		if (!$status) {

@@ -134,19 +134,17 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <p>FNF 2023 will be a Hybrid British Parliamentary style debate to be held between 9th September and 2nd October with a Virtual Preliminary round and the Final Rounds as a part of an Offline Leadership Retreat at our scenic Vijaybhoomi campus in Karjat (Accommodation will be provided by FNF team). FNF 2023 brings to you debating and a lot more. Skills to make you a leader of the 21st Century, a leader with strong persuasive skills, adept at critical thinking, innovation, keen sense of creativity and out of the box views. FNF 2023 will build these skills through Initium, the skill building series, the Virtual Preliminary Debate round and an Offline Leadership Retreat including FNF Rounds at our picturesque Vijaybhoomi campus in Karjat, Maharashtra.</p>
-          <p>FNF 2023 debating rounds will follow the British Parliamentary Style Debate. This style of debating is one of the more popular forms, based on debates in the British Parliament. Much like in the House of Commons, the debate is split into two opposing sides: the proposition (or government), and the opposition. Each side is then further divided into ‘opening’ and ‘closing’ teams, all four of which have two speakers each. These are named after their equivalent positions in the British Parliament. Coupled with the rounds of the debate, participants will be given the unprecedented opportunity to attend the Leadership Retreat at VBU. Participants will be able to experience many activities ranging from self-discovery a to workshops on specialized domains like entrepreneurship, design, music to an awe-inducing trek of the Karjat hills, bonfire, and much more.</p>
+          <p>FNF 2023 brings to you debating and a lot more. Skills to make you a leader of the 21st Century, a leader with strong persuasive skills, adept at critical thinking, innovation, keen sense of creativity and out of the box views. FNF 2023 will build these skills through Initium, the skill building series, and an Offline Leadership Retreat including FNF Rounds at our picturesque Vijaybhoomi campus in Karjat, Maharashtra.</p>
+          <p>Coupled with the rounds of the debate, participants will be given the unprecedented opportunity to attend the Leadership Retreat at VBU. Participants will be able to experience many activities ranging from self-discovery to workshops on specialized domains like entrepreneurship, design, music to an awe-inducing trek of the Karjat hills, bonfire, and much more.</p>
           <h3>Activities </h3>
           <ul class="objectives">
-            <li>FNF Pre-Quarter, Quarter, Semi-final and Final rounds</li>
-            <li>Psychometric evaluation with career counselling by an industry expert</li>
-            <li>Leadership skills with Outbound Teamwork and Team bonding games and activities sessions by an expert</li>
+            <li>FNF Quarter, Semi-final and Final rounds</li>
             <li>Workshops on Design, Data Science, Music, Business, Entrepreneurship and Law</li>
             <li>Trek and sports activities</li>
-            <li>Fun sessions and campfire at night</li>
+            <li>Social Networking Fun Night</li>
             <li>Motivational talks by experts</li>
           </ul>
-          <p>The Leadership Retreat offers immersive experience to know about society, engage in outdoor activities and exposure to a few advanced academic topics. The activities will hone various abilities amongst the participants to undertake deep reflection, interact with diverse peer group and build perspective about emerging careers. The qualifying participants will be hosted at picturesque Vijaybhoomi Campus which is surrounded by Sahayadri Range from three sides and offers numerous waterfall views in Monsoon. You will have exciting workshops in drone piloting, sound producing, outbound leadership, data analytics, design, self-discovery, etc. So, what are you waiting for? Register yourselves for FNF 2023 and take back the experience of a lifetime !!</p>
+          <p>The Leadership Retreat offers immersive experience to know about society, engage in outdoor activities and exposure to a few advanced academic topics. The activities will hone various abilities amongst the participants to undertake deep reflection, interact with diverse peer groups and build perspective about emerging careers. The qualifying participants will be hosted at picturesque Vijaybhoomi Campus which is surrounded by Sahayadri Range from three sides and offers numerous waterfall views in Monsoon. You will have exciting workshops in music, design, leadership, data analytics, law, self-discovery, etc. So, what are you waiting for? Register yourselves for FNF 2023 and take back the experience of a lifetime!!</p>
         </div>
       </div>
       <div class="row my-5">
