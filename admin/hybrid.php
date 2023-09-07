@@ -14,7 +14,7 @@ $Senior = '';
 $All = '';
 
 // Define the default query
-$query = "SELECT * FROM `hybrid-registration` WHERE `status` = 1 AND `payment_status` IS NOT NULL AND `markasdelete` IS NULL";
+$query = "SELECT * FROM `hybrid-registration` WHERE `status` = 1 AND `markasdelete` IS NULL";
 
 // Check if the form is submitted and an event type is selected
 if (isset($_POST['search']) && !empty($_POST['event_type'])) {
