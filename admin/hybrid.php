@@ -154,55 +154,6 @@ $query_run = mysqli_query($connection, $query);
 <!-- /.container-fluid -->
 <script>
   $(document).ready(function() {
-    $('#dataTable').DataTable();
-  });
-</script>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-    $('[data-toggle="tooltip"]').tooltip();
-    $(document).on("click", ".edit", function() {
-      var input = $(this).parents("tr").find("input[type='text']");
-      input.each(function() {
-        $(this).removeAttr('disabled');
-      });
-      $(this).parents("tr").find(".add , .edit").toggle();
-    });
-    $(document).on('click', '.deletereg', function() {
-      //alert($(this).attr('data-id'));
-      var regId = $(this).val();
-      var ele = $(this);
-      //alert(regId);
-      //return false;
-      ele.prop("disabled", true);
-      // add spinner to button for some time
-      ele.html('<i class="fa fa-spinner fa-spin"></i> Deleting...');
-      //return false;
-      $.ajax({
-        url: 'excel.php',
-        type: 'post',
-        data: {
-          "regId": regId,
-        },
-        datatype: 'json',
-        success: function(response) {
-          console.log(response);
-          if (response == "success") {
-            ele.parents('tr').hide();
-          }
-        },
-        error: function(error) {
-          console.log(error)
-        }
-      });
-
-    });
-
-  });
-</script>
-
-<script>
-  $(document).ready(function() {
     // Handle the download button click
     $("#download").click(function() {
       // Get the selected event type
@@ -217,10 +168,29 @@ $query_run = mysqli_query($connection, $query);
           event_type: selectedEventType
         },
         success: function(response) {
-          // Handle the response (e.g., initiate the download)
-          // You can customize this part based on your needs
-          // alert("File is ready for download.");
-          // You may want to redirect the user to another page for download or handle the download differently.
+          // console.log(response);
+
+          function downloadCSV(response) {
+            // Create a Blob containing the response data with a specified MIME type
+            const blob = new Blob([response], {
+              type: 'text/csv'
+            });
+
+            // Create a temporary URL for the Blob
+            const url = window.URL.createObjectURL(blob);
+
+            // Create a link element to trigger the download
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'data.csv';
+
+            // Simulate a click on the link to trigger the download
+            a.click();
+
+            // Clean up by revoking the Blob URL
+            window.URL.revokeObjectURL(url);
+          }
+          downloadCSV(response);
         },
         error: function(xhr, textStatus, errorThrown) {
           // Handle any errors that occur during the AJAX request
