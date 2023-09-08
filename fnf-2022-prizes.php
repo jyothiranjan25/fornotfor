@@ -128,12 +128,11 @@
         <div class="col-6">
           <h3 class="section-title mb-0">FNF 2023- The Hybrid British Parliamentary Debate (BPD)</h3>
           <ul class="objectives">
-            <li>Winner Team – Rs. One Lakh+ Plaque and Certificate, Scholarship, Internship</li>
-            <li>Runner Up -     Rs. 50000 + Plaque and Certificate, Scholarship, Internship at VU</li>
-            <li>Third Place -     Rs. 20000 + Plaque and Certificate, Scholarship, Internship at VU</li>
-            <li>Fourth Place – Rs. 10000+ Plaque and Certificate, Scholarship, Internship at VU</li>
-            <li>Pre Quarter, Quarter, Semi, Final Round Finalists – Certificates, Scholarship, Internship at VU</li>
-            <li>All Participants – Participant Certificate, Online Career Counselling Session</li>
+            <li>1st prize - 1000$ / Rs. 85000 for Junior and Senior Competitions.</li>
+            <li>2nd prize - 500 $ / Rs. 45000 for Junior and Senior Competitions.</li>
+            <li>Prizes and Merit Certificates for 3rd and 4th place for both competitions.</li>
+            <li>Merit Certificates for Pre- Quarter, Quarter and Semi.</li>
+            <li>Participation Certificates to all.</li>
           </ul>
           <!--    <h3 class="section-title mb-0">FNF 2023- The International Virtual Debate (One on One)</h3>
 								<ul class="objectives">

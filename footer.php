@@ -23,7 +23,7 @@
 				<div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
 					<h4 class="text-white mb-5">RELEVANT DOCUMENTS</h4>
 					<ul class="list-unstyled">
-						<li class="mb-3"><a class="text-color" href="downloads/fornotfor-brochure-2023.pdf" target="_blank">Brochure</a></li>
+						<li class="mb-3"><a class="text-color" href="downloads/fornotfor-brochure-2023-new.pdf" target="_blank">Brochure</a></li>
 						<li class="mb-3"><a class="text-color" href="rule-book.php">Rule Book</a></li>
 						<li class="mb-3"><a class="text-color" href="demo-video.php">Demo Video</a></li>
 					</ul>

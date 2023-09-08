@@ -17,7 +17,7 @@
 						<li class="nav-item"> <a class="nav-link" href="fnf-2022.php">FNF 2022</a> </li>
 						<!-- <li class="nav-item @@register  "> <a class="nav-link" href="register_closed.php?source=<?= $source ?>&medium=<?= $medium ?>&campaign=<?= $campaign ?>" target="_blank">FNF 2022</a> </li> -->
 						<li class="nav-item @@brochure  dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Relevant Documents</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a target="_blank" class="dropdown-item" href="downloads/fornotfor-brochure-2023.pdf">Brochure</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a target="_blank" class="dropdown-item" href="downloads/fornotfor-brochure-2023-new.pdf">Brochure</a>
 								<div class="dropdown-divider"></div> <a class="dropdown-item" href="rule-book.php">Rule book </a>
 								<div class="dropdown-divider"></div> <a class="dropdown-item" href="demo-video.php">Demo video</a>
 							</div>

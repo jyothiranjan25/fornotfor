@@ -7,7 +7,7 @@ $campaign = $_GET['campaign'];
 $medium = $_GET['medium'];
 
 //Registration End date formate yyyy-mm-dd
-$RegEndDate = "2023-09-30";
+$RegEndDate = "2023-09-14";
 
 ?>
 <!DOCTYPE html>
@@ -180,7 +180,7 @@ $RegEndDate = "2023-09-30";
 
 				<div class="col-lg-6 col-sm-12">
 					<div class="banner-temp">
-						<a href="https://vijaybhoomi.edu.in/fornotfor/" target="_blank"><img class="img-fluid w-100 shadow-sharp poster" src="images/fnf-poster-2023.jpg" alt="banner-feature"></a>
+						<a href="https://vijaybhoomi.edu.in/fornotfor/" target="_blank"><img class="img-fluid w-100 shadow-sharp poster" src="images/fnf-poster-2023-new.jpg" alt="banner-feature"></a>
 					</div>
 				</div>
 
@@ -294,8 +294,8 @@ $RegEndDate = "2023-09-30";
 						<p>FNF 2023 brings to you debating and a lot more. Skills to make you a leader of the 21st Century, a leader with strong persuasive skills, adept at critical thinking, innovation, keen sense of creativity and out of the box views. FNF, as in the past, will help you build these vital skills in a variety of platforms.</p>
 						<!-- <h3 class="section-title">INITIUM</h3>
 						<p>FNF 2023 will build these skills through Initium, the virtual skill building series which will be conducted by experts before the Preliminaries. Participants will receive vital advice on how to conduct themselves as well as making arguments in sessions. You will also get a chance to get to know other participants through some fun sessions.</p> -->
-						<!-- <h3 class="section-title">LEADERSHIP RETREAT</h3>
-						<p>Tucked in between the majestic valleys of Karjat, VijayBhoomi University is the perfect location to grow one’s life skills, gearing them up for future endeavors. For Not For 2023, aims to offer more than just a parliamentary debate competition. Coupled with the intense final rounds of the debate, participants who qualify for the Quarters will be given the unprecedented opportunity to attend the Leadership Retreat at VU. Participants will be able to experience many activities ranging from a fun networking event to workshops on specialized domains like entrepreneurship, design, music, business to an awe-inducing trek of the Karjat hills. Each event adds its own life skill as a valued outcome.</p> -->
+						<h3 class="section-title">LEADERSHIP RETREAT</h3>
+						<p>Tucked in between the majestic valleys of Karjat, VijayBhoomi University is the perfect location to grow one’s life skills, gearing them up for future endeavors. For Not For 2023, aims to offer more than just a parliamentary debate competition. Coupled with the intense final rounds of the debate, participants who qualify for the Quarters will be given the unprecedented opportunity to attend the Leadership Retreat at VU. Participants will be able to experience many activities ranging from a fun networking event to workshops on specialized domains like entrepreneurship, design, music, business to an awe-inducing trek of the Karjat hills. Each event adds its own life skill as a valued outcome.</p>
 						<p class="mb-0"> <a href="leadership-retreat.php" class="card-link">Learn More</a>
 					</div>
 				</div>
@@ -340,6 +340,11 @@ $RegEndDate = "2023-09-30";
 					</div>
 				</div>
 			</div>
+	</section>
+	<section class="section">
+		<div class="container">
+			<h2 class="text-center mb-5 test1">2023 Initium Calendar coming soon</h2>
+		</div>
 	</section>
 	<section class="section">
 		<div class="container">

@@ -239,7 +239,7 @@ if ($type != "Junior" && $type != "Senior") {
 								<div class="form-row col-12">
 									<div class="form-holder form-group">
 										<fieldset>
-											<legend>Are you willing to travel to the Vijaybhoomi University campus in Karjat from the 30th of September to the 2nd of October, in case of qualifying to the pre-quarter-finals?<sup style="color:red;">*</sup> </legend>
+											<legend>Are you willing to travel to the Vijaybhoomi University campus in Karjat From the 14th of October to the 5th of November, in case of qualifying to the pre-quarter-finals?<sup style="color:red;">*</sup> </legend>
 											<div id="select-style">
 												<select name="travel" id="travel">
 													<option value="" disabled="" selected="">Select Travel</option>
@@ -256,7 +256,7 @@ if ($type != "Junior" && $type != "Senior") {
 									<div class="form-holder form-group">
 										<legend>
 											<i><span style="color: red;"> * </span>Max 2 teams per school/branch can register.</i><br>
-											<i><span style="color: red;"> * </span>The name of the student will be printed on certificate</i>
+											<i><span style="color: red;"> * </span>Name printed on the certificate will be according to entry</i>
 										</legend>
 									</div>
 								</div>
