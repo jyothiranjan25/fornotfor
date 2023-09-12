@@ -176,24 +176,24 @@ $query_run = mysqli_query($connection, $query);
           // console.log(response);
 
           function downloadCSV(response) {
-            // // Create a Blob containing the response data with a specified MIME type
-            // const blob = new Blob([response], {
-            //   type: 'text/csv'
-            // });
+            // Create a Blob containing the response data with a specified MIME type
+            const blob = new Blob([response], {
+              type: 'text/csv'
+            });
 
-            // // Create a temporary URL for the Blob
-            // const url = window.URL.createObjectURL(blob);
+            // Create a temporary URL for the Blob
+            const url = window.URL.createObjectURL(blob);
 
-            // // Create a link element to trigger the download
-            // const a = document.createElement('a');
-            // a.href = url;
-            // a.download = 'data.csv';
+            // Create a link element to trigger the download
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'data.csv';
 
-            // // Simulate a click on the link to trigger the download
-            // a.click();
+            // Simulate a click on the link to trigger the download
+            a.click();
 
-            // // Clean up by revoking the Blob URL
-            // window.URL.revokeObjectURL(url);
+            // Clean up by revoking the Blob URL
+            window.URL.revokeObjectURL(url);
           }
           downloadCSV(response);
         },
