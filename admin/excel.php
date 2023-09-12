@@ -7,11 +7,18 @@ if (isset($_POST['download'])) {
   $selectedEventType = $_POST['event_type'];
 
   // Prepare the query based on the selected event type
-  $query = "SELECT * FROM `hybrid-registration` AS HR
-  JOIN `transactions` AS T ON HR.id=T.hybrid_registration_id
-  WHERE HR.status = 1 AND HR.payment_status IS NOT NULL AND HR.markasdelete IS NULL";
-  if (!empty($selectedEventType)) {
-    $query .= " AND HR.event_type = '$selectedEventType'";
+  if (!empty($selectedEventType) && ($selectedEventType != 'PaymentNotDone')) {
+    $query = "SELECT * FROM `hybrid-registration` AS HR
+    JOIN `transactions` AS T ON HR.id=T.hybrid_registration_id
+    WHERE HR.status = 1 AND HR.markasdelete IS NULL";
+    $query .= " AND HR.event_type = '$selectedEventType' AND HR.payment_status IS NOT NULL";
+  } elseif (!empty($selectedEventType) && ($selectedEventType == 'PaymentNotDone')) {
+    $query = "SELECT * FROM `hybrid-registration` WHERE `status` = 1 AND `markasdelete` IS NULL";
+    $query .= " AND `payment_status` IS NULL";
+  } else {
+    $query = "SELECT * FROM `hybrid-registration` AS HR
+    JOIN `transactions` AS T ON HR.id=T.hybrid_registration_id
+    WHERE HR.status = 1 AND HR.markasdelete IS NULL AND HR.payment_status IS NOT NULL";
   }
 
   $query_run = mysqli_query($connection, $query);

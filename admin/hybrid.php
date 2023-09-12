@@ -17,15 +17,19 @@ $All = '';
 $query = "SELECT * FROM `hybrid-registration` WHERE `status` = 1 AND `markasdelete` IS NULL";
 
 // Check if the form is submitted and an event type is selected
-if (isset($_POST['search']) && !empty($_POST['event_type'])) {
-  $selectedEventType = $_POST['event_type'];
+$selectedEventType = $_POST['event_type'];
+if (isset($_POST['search']) && !empty($_POST['event_type']) && ($_POST['event_type'] != 'PaymentNotDone')) {
   $query .= " AND `event_type` = '$selectedEventType'";
+} elseif (isset($_POST['search']) && !empty($_POST['event_type']) && ($_POST['event_type'] == 'PaymentNotDone')) {
+  $query .= " AND `payment_status` IS NULL";
 }
 // Set the selected event type for the dropdown
 if ($selectedEventType == 'Junior') {
   $Junior = 'selected';
 } elseif ($selectedEventType == 'Senior') {
   $Senior = 'selected';
+} elseif ($selectedEventType == 'PaymentNotDone') {
+  $PaymentNotDone = 'selected';
 } else {
   $All = 'selected';
 }
@@ -43,6 +47,7 @@ $query_run = mysqli_query($connection, $query);
             <option value="" <?= $All ?>>All</option>
             <option value="Junior" <?= $Junior ?>>Junior</option>
             <option value="Senior" <?= $Senior ?>>Senior</option>
+            <option value="PaymentNotDone" <?= $PaymentNotDone ?>>Payment Incomplete Forms</option>
             <!-- Add more options as needed -->
           </select>
         </div>
@@ -171,24 +176,24 @@ $query_run = mysqli_query($connection, $query);
           // console.log(response);
 
           function downloadCSV(response) {
-            // Create a Blob containing the response data with a specified MIME type
-            const blob = new Blob([response], {
-              type: 'text/csv'
-            });
+            // // Create a Blob containing the response data with a specified MIME type
+            // const blob = new Blob([response], {
+            //   type: 'text/csv'
+            // });
 
-            // Create a temporary URL for the Blob
-            const url = window.URL.createObjectURL(blob);
+            // // Create a temporary URL for the Blob
+            // const url = window.URL.createObjectURL(blob);
 
-            // Create a link element to trigger the download
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'data.csv';
+            // // Create a link element to trigger the download
+            // const a = document.createElement('a');
+            // a.href = url;
+            // a.download = 'data.csv';
 
-            // Simulate a click on the link to trigger the download
-            a.click();
+            // // Simulate a click on the link to trigger the download
+            // a.click();
 
-            // Clean up by revoking the Blob URL
-            window.URL.revokeObjectURL(url);
+            // // Clean up by revoking the Blob URL
+            // window.URL.revokeObjectURL(url);
           }
           downloadCSV(response);
         },
